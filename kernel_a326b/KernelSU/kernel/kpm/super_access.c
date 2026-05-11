@@ -92,7 +92,7 @@ DEFINE_MEMBER(mnt_namespace, count)
 #endif
 DYNAMIC_STRUCT_END(mnt_namespace)
 
-#ifdef CONFIG_KPROBES
+#if defined(CONFIG_KPROBES) && 0
 DYNAMIC_STRUCT_BEGIN(kprobe)
 DEFINE_MEMBER(kprobe, addr)
 DEFINE_MEMBER(kprobe, symbol_name)
@@ -174,7 +174,7 @@ static struct DynamicStructInfo *dynamic_struct_infos[] = {
     STRUCT_INFO(mount),
     STRUCT_INFO(vfsmount),
     STRUCT_INFO(mnt_namespace),
-#ifdef CONFIG_KPROBES
+#if defined(CONFIG_KPROBES) && 0
     STRUCT_INFO(kprobe),
 #endif
     STRUCT_INFO(vm_area_struct),
