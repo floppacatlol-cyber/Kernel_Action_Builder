@@ -1,0 +1,399 @@
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Device: [1;33ma32x[0m
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Config: [1;33ma32x_defconfig[0m
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Builder: [1;33mH3CKER@H3CKED[0m
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Build started at 17-02-2026 06:40:16
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Setting up build dependencies...
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Verifying dependencies...
+[0;36m[06:40:16][0m [0;32m[OK][0m  All system dependencies verified
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Checking toolchains...
+[0;36m[06:40:16][0m [0;32m[OK][0m  GCC toolchain found
+[0;36m[06:40:16][0m [0;32m[OK][0m  Clang toolchain found
+[0;36m[06:40:16][0m [0;32m[OK][0m  AnyKernel3 already exists
+[0;36m[06:40:16][0m [0;32m[OK][0m  All dependencies ready!
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Setting up build environment...
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Architecture: [1;33marm64[0m
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Compiler: [1;33mClang + GCC[0m
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Threads: [1;33m2[0m
+[0;36m[06:40:16][0m [0;32m[OK][0m  Environment ready!
+[0;36m[06:40:16][0m [1;37m[INFO][0m  Starting kernel compilation...
+[0;36m[06:40:16][0m [0;35m[PROGRESS][0m  Generating defconfig...
+make: Entering directory '/workspaces/codespaces-blank/kernel_samsung_a32x'
+make[1]: Entering directory '/workspaces/codespaces-blank/kernel_samsung_a32x/out'
+  GEN     ./Makefile
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/workspaces/codespaces-blank/kernel_samsung_a32x/out'
+make: Leaving directory '/workspaces/codespaces-blank/kernel_samsung_a32x'
+[0;36m[06:40:35][0m [0;32m[OK][0m  Defconfig generated
+[0;36m[06:40:35][0m [0;35m[PROGRESS][0m  Compiling kernel with 2 threads...
+make: Entering directory '/workspaces/codespaces-blank/kernel_samsung_a32x'
+make[1]: Entering directory '/workspaces/codespaces-blank/kernel_samsung_a32x/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+../firmware/Makefile:95: target 'firmware/tsp_novatek/nt36525_a02_csot.bin.gen.S' given more than once in the same rule
+-- KernelSU version: 11872
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+-- Did you know you can backport path_umount to fs/namespace.c from 5.9?
+-- Read: https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#how-to-backport-path-umount
+kperfmon_DUMMY="CONFIG_KPERFMON is off."
+kperfmon_DUMMY="olog.pb.h file is missing... retrying"
+cp: cannot stat '../../../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/logging/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+chmod: cannot access '../drivers/kperfmon/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+make[3]: ../drivers/kperfmon/aprotoc: No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../drivers/kperfmon/olog.pb.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="olog.pb.h file is missing... again"
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="perflog.h file is missing."
+  Using .. as source for kernel
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+..
+..
+FDVT: Drv use 5.1 folder
+..
+..
+..
+..
+  CHK     include/generated/compile.h
+..
+../drivers/misc/mediatek/ccu/src/Makefile:29: CCU_MAKE_FILE_CALLED
+$CONFIG_MTK_COMBO_CHIP is ["CONSYS_6853"]
+MTK_PLATFORM_ID is [6853]
+WIFI_IP_SET is 3
+FM_CHIP_ID is [6853]
+CFG_FM_CHIP_ID is [6853]
+CFG_FM_CHIP is []
+CFG_BUILD_CONNAC2 is [false]
+../drivers/misc/mediatek/connectivity/bt/Makefile:30: yumin: bt 1
+../drivers/misc/mediatek/connectivity/bt/Makefile:35: yumin: bt 2
+os option: linux
+$MTK_PLATFORM is [mt6853]
+$WLAN_CHIP_ID is [6853]
+../drivers/misc/mediatek/connectivity/wlan_drv_gen4m/Makefile:436: wlan_6853_axi build-in boot.img
+../drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/Makefile:53: wmt_chrdev_wifi build-in boot.img
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:46: yumin: common 1
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:48: yumin: common 2
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:113: wmt_drv build-in boot.img
+************  drivers/trusty/mtee-kree mk ************
+MTK_GPU_VERSION 1 = mali
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+imgsensor drv by common ../common/v1_1/s5kgm2_mipi_raw/ ../common/v1_1/s5k3l6_mipi_raw/ ../common/v1_1/sr846d_mipi_raw/ ../common/v1_1/gc5035_mipi_raw/ ../common/v1_1/gc02m1b_mipi_mono/
+imgsensor drv by platform 
+imgsensor subdir-ccflags-y = -I../drivers/misc/mediatek/imgsensor/src/common/v1_1 -I../drivers/misc/mediatek/imgsensor/src/inc -I../drivers/misc/mediatek/imgsensor/src/common/sysfs -I../drivers/misc/mediatek/imgsensor/src/common/adaptive_mipi -I../drivers/misc/mediatek/mmdvfs -I../drivers/i2c/busses/ -I../drivers/misc/mediatek/imgsensor/src/mt6853/camera_project/aat_v32x/camera_hw -DSENSOR_PARALLEISM -I../drivers/misc/mediatek/imgsensor/src/mt6853/seninf/
+camera project of sysfs: aat_v32x
+use gc02m1_mipi_raw device driver
+  GZIP    kernel/config_data.gz
+  CHK     kernel/kheaders_data.tar.xz
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+  GEN     kernel/kheaders_data.tar.xz
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+-- KernelSU version: 11872
+-- KernelSU Manager signature size: 0x033b
+-- KernelSU Manager signature hash: c371061b19d8c7d7d6133c6a9bafe198fa944e50c1b31c9d8daa8d7f1fc2d2d6
+-- Did you know you can backport path_umount to fs/namespace.c from 5.9?
+-- Read: https://kernelsu.org/guide/how-to-integrate-for-non-gki.html#how-to-backport-path-umount
+  CC      drivers/kernelsu/ksu.o
+  CC      drivers/kernelsu/allowlist.o
+  CC      drivers/kernelsu/apk_sign.o
+  CC      drivers/kernelsu/sucompat.o
+  CC      drivers/kernelsu/throne_tracker.o
+  CC      drivers/kernelsu/core_hook.o
+  CC      drivers/kernelsu/ksud.o
+  CC      drivers/kernelsu/embed_ksud.o
+  CC      drivers/kernelsu/kernel_compat.o
+  CC      drivers/kernelsu/selinux/selinux.o
+  CC      drivers/kernelsu/selinux/sepolicy.o
+  CC      drivers/kernelsu/selinux/rules.o
+  CHK     kernel/config_data.h
+  UPD     kernel/config_data.h
+  CC      kernel/kheaders.o
+  CC      kernel/configs.o
+  AR      drivers/kernelsu/kernelsu.o
+  AR      drivers/kernelsu/built-in.o
+kperfmon_DUMMY="CONFIG_KPERFMON is off."
+kperfmon_DUMMY="olog.pb.h file is missing... retrying"
+cp: cannot stat '../../../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/logging/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+chmod: cannot access '../drivers/kperfmon/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+make[3]: ../drivers/kperfmon/aprotoc: No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../drivers/kperfmon/olog.pb.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="olog.pb.h file is missing... again"
+cp: cannot stat '../../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat '../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="perflog.h file is missing."
+  AR      kernel/built-in.o
+../firmware/Makefile:95: target 'firmware/tsp_novatek/nt36525_a02_csot.bin.gen.S' given more than once in the same rule
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+..
+..
+FDVT: Drv use 5.1 folder
+..
+..
+..
+..
+..
+../drivers/misc/mediatek/ccu/src/Makefile:29: CCU_MAKE_FILE_CALLED
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+$CONFIG_MTK_COMBO_CHIP is ["CONSYS_6853"]
+MTK_PLATFORM_ID is [6853]
+WIFI_IP_SET is 3
+FM_CHIP_ID is [6853]
+CFG_FM_CHIP_ID is [6853]
+CFG_FM_CHIP is []
+CFG_BUILD_CONNAC2 is [false]
+../drivers/misc/mediatek/connectivity/bt/Makefile:30: yumin: bt 1
+../drivers/misc/mediatek/connectivity/bt/Makefile:35: yumin: bt 2
+os option: linux
+$MTK_PLATFORM is [mt6853]
+$WLAN_CHIP_ID is [6853]
+../drivers/misc/mediatek/connectivity/wlan_drv_gen4m/Makefile:436: wlan_6853_axi build-in boot.img
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/plat/mt6853/plat_priv.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/dump.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/wlan_lib.o
+  AR      drivers/misc/tui/built-in.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/wlan_oid.o
+../drivers/misc/mediatek/connectivity/wmt_chrdev_wifi/Makefile:53: wmt_chrdev_wifi build-in boot.img
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/wlan_bow.o
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:46: yumin: common 1
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:48: yumin: common 2
+../drivers/misc/mediatek/connectivity/wmt_drv/Makefile:113: wmt_drv build-in boot.img
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/debug.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/wlan_p2p.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/common/wlan_he.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_tx.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_txd_v1.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_rxd_v1.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_rx.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_pwr_mgt.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_rate.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/cmd_buf.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/que_mgt.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_cmd_event.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/nic_umac.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/nic/p2p_nic.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_init.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_kal.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_bow.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_wext.o
+************  drivers/trusty/mtee-kree mk ************
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_wext_priv.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_ate_agent.o
+MTK_GPU_VERSION 1 = mali
+*MTK_GPU_VERSION 2 = valhall
+*MTK_GPU_VERSION 3 = r32p1
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+mali MTK evironment, building r32p1 DDK
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := y
+mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := "mt6853"
+*GPU defined GPU BM QoS 2.0
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_qa_agent.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_hook_api.o
+imgsensor drv by common ../common/v1_1/s5kgm2_mipi_raw/ ../common/v1_1/s5k3l6_mipi_raw/ ../common/v1_1/sr846d_mipi_raw/ ../common/v1_1/gc5035_mipi_raw/ ../common/v1_1/gc02m1b_mipi_mono/
+imgsensor drv by platform 
+imgsensor subdir-ccflags-y = -I../drivers/misc/mediatek/imgsensor/src/common/v1_1 -I../drivers/misc/mediatek/imgsensor/src/inc -I../drivers/misc/mediatek/imgsensor/src/common/sysfs -I../drivers/misc/mediatek/imgsensor/src/common/adaptive_mipi -I../drivers/misc/mediatek/mmdvfs -I../drivers/i2c/busses/ -I../drivers/misc/mediatek/imgsensor/src/mt6853/camera_project/aat_v32x/camera_hw -DSENSOR_PARALLEISM -I../drivers/misc/mediatek/imgsensor/src/mt6853/seninf/
+camera project of sysfs: aat_v32x
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_rst.o
+use gc02m1_mipi_raw device driver
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_cfg80211.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_proc.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_sys.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_vendor.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/platform.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_p2p.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_p2p_cfg80211.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_p2p_init.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/gl_p2p_kal.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/hif/common/hal_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/hif/common/kal_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/hif/common/dbg_pdma.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/os/linux/hif/axi/axi.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/ais_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/aaa_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/assoc.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/auth.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/bss.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/cnm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/cnm_timer.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/cnm_mem.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/hem_mbox.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/mib.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/privacy.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rate.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rlm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rlm_domain.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/reg_rule.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rlm_obss.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rlm_protection.o
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rrm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/rsn.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/saa_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/scan.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/scan_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/scan_cache.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/swcr.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/roaming_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/tkip_mic.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/hs20.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/tdls.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/wnm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/qosmap.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/ap_selection.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/wmm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/mddp.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/stats.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_dev_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_dev_state.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_role_fsm.o
+TCORE_UT_TESTS_SUPPORT = n
+TCORE_PROFILING_SUPPORT = n
+TCORE_PROFILING_AUTO_DUMP = n
+TCORE_MEMORY_LEAK_DETECTION_SUPPORT = n
+../drivers/misc/tzdev/Makefile.include:2: "CONFIG_MTK_PLATFORM: "mt6853""
+../drivers/misc/tzdev/Makefile.include:3: "CONFIG_TEEGRIS_VERSION_STRING: "4.2.0""
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_role_state.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_func.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_scan.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_ie.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_rlm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_assoc.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_bss.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_rlm_obss.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/p2p_fsm.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/mgmt/wapi.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/chips/common/cmm_asic_connac.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/chips/common/dbg_connac.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/chips/common/fw_dl.o
+  CC      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/chips/connac2x2/connac2x2.o
+  AR      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/wlan_6853_axi.o
+  AR      drivers/misc/mediatek/connectivity/wlan_drv_gen4m/built-in.o
+  AR      drivers/misc/mediatek/connectivity/built-in.o
+  AR      drivers/misc/mediatek/built-in.o
+  AR      drivers/misc/built-in.o
+  AR      drivers/built-in.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.o
+  AR      built-in.o
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: vmlinux.o(.text+0x95b050): Section mismatch in reference from the function mtk_gps_emi_exit() to the function .exit.text:gps_emi_mod_exit()
+The function mtk_gps_emi_exit() references a function in an exit section.
+Often the function gps_emi_mod_exit() has valid usage outside the exit section
+and the fix is to remove the __exit annotation of gps_emi_mod_exit.
+
+WARNING: vmlinux.o(.text+0x95b4a4): Section mismatch in reference from the function mtk_gps_fw_log_exit() to the function .exit.text:gps_fw_log_exit()
+The function mtk_gps_fw_log_exit() references a function in an exit section.
+Often the function gps_fw_log_exit() has valid usage outside the exit section
+and the fix is to remove the __exit annotation of gps_fw_log_exit.
+
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  Building modules, stage 2.
+  MODPOST 3 modules
+  GZIP    arch/arm64/boot/Image.gz
+make[1]: Leaving directory '/workspaces/codespaces-blank/kernel_samsung_a32x/out'
+make: Leaving directory '/workspaces/codespaces-blank/kernel_samsung_a32x'
+[0;36m[06:44:26][0m [0;32m[OK][0m  Kernel compilation completed!
+[0;36m[06:44:26][0m [1;37m[INFO][0m  Build time: [1;33m4m 10s[0m
+[0;36m[06:44:26][0m [1;37m[INFO][0m  Creating flashable package...
+[0;36m[06:44:26][0m [0;32m[OK][0m  AnyKernel3 already exists
+[0;36m[06:44:26][0m [0;35m[PROGRESS][0m  Cleaning AnyKernel directory...
+[0;36m[06:44:27][0m [1;37m[INFO][0m  Using: [1;33mImage.gz[0m
+[0;36m[06:44:27][0m [0;35m[PROGRESS][0m  Copying kernel image...
+[0;36m[06:44:27][0m [0;32m[OK][0m  Kernel image copied
+[0;36m[06:44:27][0m [0;35m[PROGRESS][0m  Creating ZIP package...
+[0;36m[06:44:30][0m [0;32m[OK][0m  Package created: [1;33ma32x-20260217-0644.zip[0m
+[0;36m[06:44:31][0m [1;33m[WARNING][0m  Telegram credentials not set. Skipping upload.
+[0;36m[06:44:31][0m [0;32m[OK][0m  Output: [1;33moutput/a32x-20260217-0644.zip[0m
+[0;36m[06:44:31][0m [0;32m[OK][0m  Build finished successfully!
+[0;36m[06:44:31][0m [1;37m[INFO][0m  Check output directory for flashable ZIP
