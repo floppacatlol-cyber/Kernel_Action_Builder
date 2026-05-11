@@ -1,3 +1,7 @@
+#include <asm/unistd.h>
+#ifndef SECCOMP_ARCH_NATIVE_NR
+#define SECCOMP_ARCH_NATIVE_NR NR_syscalls
+#endif
 #include <linux/version.h>
 #include <linux/fs.h>
 #include <linux/nsproxy.h>

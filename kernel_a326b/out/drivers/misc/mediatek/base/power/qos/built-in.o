@@ -1,0 +1,15 @@
+!<thin>
+//                                              102       `
+mtk_qos_ipi_v2.o/
+mtk_qos_main.o/
+mtk_qos_bound.o/
+mtk_qos_sram.o/
+mtk_qos_sysfs.o/
+mtk_qos_share.o/
+
+/0              0           0     0     644     105200    `
+/18             0           0     0     644     126608    `
+/34             0           0     0     644     29952     `
+/51             0           0     0     644     9400      `
+/67             0           0     0     644     118712    `
+/84             0           0     0     644     13632     `

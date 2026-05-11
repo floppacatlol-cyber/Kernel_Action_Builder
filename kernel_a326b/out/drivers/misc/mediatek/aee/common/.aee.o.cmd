@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/common/aee.o :=  rm -f drivers/misc/mediatek/aee/common/aee.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/aee/common/aee.o drivers/misc/mediatek/aee/common/dummy.o drivers/misc/mediatek/aee/common/aee-common.o drivers/misc/mediatek/aee/common/reboot-reason.o 

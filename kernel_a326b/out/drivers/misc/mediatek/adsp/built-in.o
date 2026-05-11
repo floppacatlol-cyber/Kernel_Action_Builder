@@ -1,0 +1,26 @@
+!<thin>
+//                                              278       `
+common/adsp_core.o/
+common/adsp_fs.o/
+common/adsp_semaphore.o/
+common/adsp_logger.o/
+common/adsp_feature_table.o/
+mt6853/adsp_awake.o/
+mt6853/adsp_clk.o/
+mt6853/adsp_reserved_mem.o/
+mt6853/adsp_platform_driver.o/
+mt6853/adsp_platform.o/
+mt6853/adsp_mbox.o/
+mt6853/adsp_excep.o/
+/0              0           0     0     644     167312    `
+/20             0           0     0     644     161368    `
+/38             0           0     0     644     13984     `
+/63             0           0     0     644     139120    `
+/85             0           0     0     644     34208     `
+/114            0           0     0     644     120968    `
+/135            0           0     0     644     124032    `
+/154            0           0     0     644     136680    `
+/182            0           0     0     644     216352    `
+/213            0           0     0     644     26856     `
+/237            0           0     0     644     132408    `
+/257            0           0     0     644     174528    `

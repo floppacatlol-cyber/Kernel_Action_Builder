@@ -1,0 +1,47 @@
+!<thin>
+//                                              626       `
+mtk_thermal_platform.o/
+ap_thermal_limit.o/
+thermal_zones/mtk_ts_battery.o/
+thermal_zones/mtk_ts_bts.o/
+thermal_zones/mtk_ts_btsmdpa.o/
+thermal_zones/mtk_ts_btsnrpa.o/
+thermal_zones/mtk_ts_cpu_noBank.o/
+thermal_zones/mtk_ts_pa.o/
+thermal_zones/mtk_ts_pa_thput.o/
+thermal_zones/mtk_ts_pmic.o/
+thermal_zones/mtk_ts_charger.o/
+thermal_zones/mtk_ts_wmt.o/
+thermal_zones/mtk_tsAll.o/
+thermal_zones/mtk_ts_imgsensor.o/
+coolers/mtk_ta.o/
+coolers/mtk_cooler_mutt_gen97.o/
+coolers/mtk_cooler_bcct_v1.o/
+coolers/mtk_cooler_atm.o/
+coolers/mtk_cooler_dtm.o/
+coolers/mtk_cooler_sysrst.o/
+coolers/mtk_cooler_VR_FPS.o/
+mtk_thermal_timer.o/
+
+/0              0           0     0     644     207152    `
+/24             0           0     0     644     36176     `
+/44             0           0     0     644     230968    `
+/76             0           0     0     644     263216    `
+/104            0           0     0     644     264472    `
+/136            0           0     0     644     263192    `
+/168            0           0     0     644     312344    `
+/203            0           0     0     644     320192    `
+/230            0           0     0     644     246248    `
+/263            0           0     0     644     207616    `
+/292            0           0     0     644     184936    `
+/324            0           0     0     644     442072    `
+/352            0           0     0     644     437216    `
+/379            0           0     0     644     630504    `
+/413            0           0     0     644     321424    `
+/431            0           0     0     644     394152    `
+/464            0           0     0     644     337760    `
+/494            0           0     0     644     441120    `
+/520            0           0     0     644     178864    `
+/546            0           0     0     644     144800    `
+/575            0           0     0     644     151936    `
+/604            0           0     0     644     31392     `

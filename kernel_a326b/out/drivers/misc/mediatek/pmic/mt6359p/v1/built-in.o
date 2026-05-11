@@ -1,0 +1,31 @@
+!<thin>
+//                                              222       `
+pmic_ipi.o/
+mt6359_gauge.o/
+pmic.o/
+pmic_common.o/
+pmic_debugfs.o/
+pmic_irq.o/
+pmic_initial_setting.o/
+pmic_api.o/
+pmic_auxadc.o/
+regulator_codegen.o/
+pmic_lp_api.o/
+pmic_efuse.o/
+pmic_throttling_dlpt.o/
+pmic_oc_debug.o/
+
+/0              0           0     0     644     15096     `
+/12             0           0     0     644     960560    `
+/28             0           0     0     644     610936    `
+/36             0           0     0     644     520360    `
+/51             0           0     0     644     592040    `
+/67             0           0     0     644     619296    `
+/79             0           0     0     644     450632    `
+/103            0           0     0     644     157856    `
+/115            0           0     0     644     737152    `
+/130            0           0     0     644     977160    `
+/151            0           0     0     644     47544     `
+/166            0           0     0     644     434704    `
+/180            0           0     0     644     913448    `
+/204            0           0     0     644     152680    `

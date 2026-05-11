@@ -1,0 +1,23 @@
+arch/arm64/boot/dts/mediatek/.mt6853.dtb.dts.tmp: \
+  ../arch/arm64/boot/dts/mediatek/mt6853.dts \
+  ../scripts/dtc/include-prefixes/dt-bindings/clock/mt6853-clk.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/iio/mt635x-auxadc.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/mfd/mt6315-irq.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/mfd/mt6359-irq.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt6853-pinfunc.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/pinctrl/mt65xx.h \
+  include/generated/autoconf.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/spmi/spmi.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/memory/mt6853-larb-port.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/gce/mt6853-gce.h \
+  ../scripts/dtc/include-prefixes/dt-bindings/mmc/mt6853-msdc.h \
+  ../arch/arm64/boot/dts/mediatek/mt6360.dtsi \
+  ../arch/arm64/boot/dts/mediatek/mt6360_pd.dtsi \
+  ../arch/arm64/boot/dts/mediatek/mt6359p.dtsi \
+  ../arch/arm64/boot/dts/mediatek/mt6853-clkitg.dtsi \
+  ../arch/arm64/boot/dts/mediatek/cust_mt6853_msdc.dtsi \
+  ../arch/arm64/boot/dts/mediatek/mt6315_s3.dtsi \
+  ../arch/arm64/boot/dts/mediatek/trusty.dtsi \
+  ../arch/arm64/boot/dts/mediatek/modem-MT6853ap-pdata.dtsi

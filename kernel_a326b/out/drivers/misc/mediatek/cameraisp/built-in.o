@@ -1,0 +1,46 @@
+!<thin>
+//                                              542       `
+dip/cameradip_dummy.o/
+dip/isp_6s/camera_dip.o/
+src/cameraisp_dummy.o/
+src/mt6853/camera_isp.o/
+src/mt6853/cam_qos.o/
+owe/camera_owe_dummy.o/
+rsc/camera_rsc_dummy.o/
+rsc/engine_request.o/
+rsc/isp_6s/camera_rsc.o/
+wpe/camerawpe_dummy.o/
+wpe/isp_6s/camera_wpe.o/
+dpe/cameradpe_dummy.o/
+dpe/isp_60/engine_request.o/
+dpe/isp_60/camera_dpe.o/
+dpe/isp_60/videobuf2-dma-contig.o/
+tsf/camera_tsf_dummy.o/
+mfb/camera_mfb_dummy.o/
+mfb/isp_6s/engine_request.o/
+mfb/isp_6s/camera_mfb.o/
+fdvt/fdvt_dummy.o/
+fdvt/5.1/camera_fdvt.o/
+pda/camera_pda_dummy.o/
+/0              0           0     0     644     1224      `
+/23             0           0     0     644     2822496   `
+/48             0           0     0     644     1224      `
+/71             0           0     0     644     2104776   `
+/96             0           0     0     644     56336     `
+/118            0           0     0     644     1224      `
+/142            0           0     0     644     1224      `
+/166            0           0     0     644     80312     `
+/188            0           0     0     644     657248    `
+/213            0           0     0     644     1224      `
+/236            0           0     0     644     812808    `
+/261            0           0     0     644     1224      `
+/284            0           0     0     644     84664     `
+/313            0           0     0     644     916944    `
+/338            0           0     0     644     182888    `
+/373            0           0     0     644     1224      `
+/397            0           0     0     644     1224      `
+/421            0           0     0     644     90248     `
+/450            0           0     0     644     1099168   `
+/475            0           0     0     644     1224      `
+/494            0           0     0     644     748368    `
+/518            0           0     0     644     1224      `

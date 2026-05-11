@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mtk-jpeg/built-in.o :=   rm -f drivers/media/platform/mtk-jpeg/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/platform/mtk-jpeg/built-in.o drivers/media/platform/mtk-jpeg/mtk_jpeg.o ; scripts/mod/modpost drivers/media/platform/mtk-jpeg/built-in.o

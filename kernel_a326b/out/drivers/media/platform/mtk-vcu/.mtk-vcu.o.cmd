@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/mtk-vcu/mtk-vcu.o :=  rm -f drivers/media/platform/mtk-vcu/mtk-vcu.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/platform/mtk-vcu/mtk-vcu.o drivers/media/platform/mtk-vcu/mtk_vcu.o drivers/media/platform/mtk-vcu/mtk_vcodec_mem.o 

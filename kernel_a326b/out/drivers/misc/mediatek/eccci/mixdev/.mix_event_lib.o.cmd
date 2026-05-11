@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o :=  rm -f drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/eccci/mixdev/mix_event_lib.o drivers/misc/mediatek/eccci/mixdev/mix_event.o 

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/meson/built-in.o :=  rm -f drivers/media/platform/meson/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/platform/meson/built-in.o

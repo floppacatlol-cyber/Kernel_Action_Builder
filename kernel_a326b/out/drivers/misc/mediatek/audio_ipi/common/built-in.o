@@ -1,0 +1,18 @@
+!<thin>
+//                                              248       `
+framework/audio_ringbuf.o/
+framework/audio_ipi_dma.o/
+framework/audio_ipi_driver.o/
+framework/audio_ipi_queue.o/
+framework/audio_messenger_ipi.o/
+framework/audio_task_manager.o/
+framework/adsp_ipi_queue.o/
+tasks/call/audio_ipi_client_phone_call.o/
+/0              0           0     0     644     49448     `
+/27             0           0     0     644     195656    `
+/54             0           0     0     644     240432    `
+/84             0           0     0     644     70560     `
+/113            0           0     0     644     40424     `
+/146            0           0     0     644     11016     `
+/178            0           0     0     644     157392    `
+/206            0           0     0     644     12872     `

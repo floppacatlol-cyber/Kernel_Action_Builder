@@ -1,0 +1,11 @@
+!<thin>
+//                                              112       `
+mt6853/mt6853.o/
+mt6853/mtk_lp_plat_apmcu.o/
+mt6853/mtk_lp_plat_apmcu_mbox.o/
+mt6853/suspend/mt6853_suspend.o/
+
+/0              0           0     0     644     8008      `
+/17             0           0     0     644     132032    `
+/45             0           0     0     644     22904     `
+/78             0           0     0     644     213064    `

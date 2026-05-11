@@ -72,7 +72,7 @@ void ksu_event_queue_destroy(struct ksu_event_queue *queue)
     unsigned long irq_flags;
 
     ksu_event_queue_mark_closed(queue);
-    wake_up_interruptible_poll(&queue->read_wait, EPOLLHUP | POLLHUP);
+    wake_up_interruptible_poll(&queue->read_wait, POLLHUP | POLLHUP);
 
     mutex_lock(&queue->read_lock);
     spin_lock_irqsave(&queue->lock, irq_flags);
@@ -90,7 +90,7 @@ void ksu_event_queue_destroy(struct ksu_event_queue *queue)
     spin_unlock_irqrestore(&queue->lock, irq_flags);
     mutex_unlock(&queue->read_lock);
 
-    wake_up_interruptible_poll(&queue->read_wait, EPOLLHUP | POLLHUP);
+    wake_up_interruptible_poll(&queue->read_wait, POLLHUP | POLLHUP);
 }
 
 int ksu_event_queue_push(struct ksu_event_queue *queue, __u16 type, __u16 flags, const void *payload, __u32 len,
@@ -153,7 +153,7 @@ out_unlock:
     }
 
     if (wake) {
-        wake_up_interruptible_poll(&queue->read_wait, EPOLLIN | EPOLLRDNORM);
+        wake_up_interruptible_poll(&queue->read_wait, POLLIN | POLLRDNORM);
     }
 
     return ret;
@@ -174,7 +174,7 @@ void ksu_event_queue_drop(struct ksu_event_queue *queue)
     ksu_event_queue_note_drop_locked(queue, seq);
     spin_unlock_irqrestore(&queue->lock, irq_flags);
 
-    wake_up_interruptible_poll(&queue->read_wait, EPOLLIN | EPOLLRDNORM);
+    wake_up_interruptible_poll(&queue->read_wait, POLLIN | POLLRDNORM);
 }
 
 static int ksu_event_queue_wait_ready(struct ksu_event_queue *queue, int file_flags)
@@ -369,9 +369,9 @@ out_unlock:
     return copied;
 }
 
-__poll_t ksu_event_queue_poll(struct ksu_event_queue *queue, struct file *file, poll_table *wait)
+unsigned int ksu_event_queue_poll(struct ksu_event_queue *queue, struct file *file, poll_table *wait)
 {
-    __poll_t mask = 0;
+    unsigned int mask = 0;
     unsigned long irq_flags;
 
     poll_wait(file, &queue->read_wait, wait);
@@ -391,7 +391,7 @@ __poll_t ksu_event_queue_poll(struct ksu_event_queue *queue, struct file *file, 
 void ksu_event_queue_close(struct ksu_event_queue *queue)
 {
     ksu_event_queue_mark_closed(queue);
-    wake_up_interruptible_poll(&queue->read_wait, EPOLLHUP | POLLHUP);
+    wake_up_interruptible_poll(&queue->read_wait, POLLHUP | POLLHUP);
 }
 
 bool ksu_event_queue_has_data(struct ksu_event_queue *queue)

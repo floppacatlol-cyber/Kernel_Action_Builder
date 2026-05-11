@@ -1,0 +1,1 @@
+cmd_drivers/memory/built-in.o :=   rm -f drivers/memory/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/memory/built-in.o drivers/memory/mtk-smi.o drivers/memory/mtk-smi-debug.o drivers/memory/mediatek/built-in.o ; scripts/mod/modpost drivers/memory/built-in.o

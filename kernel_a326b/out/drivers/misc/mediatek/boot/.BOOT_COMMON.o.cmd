@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/boot/BOOT_COMMON.o :=  rm -f drivers/misc/mediatek/boot/BOOT_COMMON.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/boot/BOOT_COMMON.o drivers/misc/mediatek/boot/mtk_boot_common.o drivers/misc/mediatek/boot/mtk_boot.o 

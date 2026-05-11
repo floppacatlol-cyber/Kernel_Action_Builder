@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/rc-core.o :=  rm -f drivers/media/rc/rc-core.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/rc/rc-core.o drivers/media/rc/rc-main.o drivers/media/rc/rc-ir-raw.o 

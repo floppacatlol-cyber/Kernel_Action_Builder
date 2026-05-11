@@ -1,0 +1,13 @@
+!<thin>
+//                                              106       `
+main.o/
+stui_core.o/
+stui_inf.o/
+platforms/mt6853/stui_hal_display.o/
+platforms/mt6853/stui_hal_touch.o/
+
+/0              0           0     0     644     136520    `
+/8              0           0     0     644     127576    `
+/21             0           0     0     644     180224    `
+/33             0           0     0     644     147056    `
+/70             0           0     0     644     6960      `

@@ -1,0 +1,13 @@
+!<thin>
+//                                              98        `
+mtk_lpm_platform.o/
+mtk_lpm_irqremain.o/
+mtk_lpm_resource_ctrl.o/
+mtk_lpm_rc.o/
+mtk_lpm_trace.o/
+
+/0              0           0     0     644     20824     `
+/20             0           0     0     644     102816    `
+/41             0           0     0     644     61088     `
+/66             0           0     0     644     61232     `
+/80             0           0     0     644     60992     `

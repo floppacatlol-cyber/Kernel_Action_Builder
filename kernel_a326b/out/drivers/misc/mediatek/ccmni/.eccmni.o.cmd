@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/ccmni/eccmni.o :=  rm -f drivers/misc/mediatek/ccmni/eccmni.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/ccmni/eccmni.o drivers/misc/mediatek/ccmni/ccmni.o 

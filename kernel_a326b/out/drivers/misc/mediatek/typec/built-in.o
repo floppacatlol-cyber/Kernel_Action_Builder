@@ -1,0 +1,83 @@
+!<thin>
+//                                              972       `
+tcpc/tcpc_mt6360.o/
+tcpc/tcpci_core.o/
+tcpc/tcpci_typec.o/
+tcpc/tcpci_timer.o/
+tcpc/tcpm.o/
+tcpc/tcpci.o/
+tcpc/pd_dbg_info.o/
+tcpc/tcpci_alert.o/
+tcpc/rt_pd_manager.o/
+tcpc/tcpci_event.o/
+tcpc/pd_core.o/
+tcpc/pd_policy_engine.o/
+tcpc/pd_process_evt.o/
+tcpc/pd_dpm_core.o/
+tcpc/pd_dpm_uvdm.o/
+tcpc/pd_dpm_alt_mode_dp.o/
+tcpc/pd_dpm_pdo_select.o/
+tcpc/pd_dpm_reaction.o/
+tcpc/pd_dpm_sec.o/
+tcpc/pd_process_evt_snk.o/
+tcpc/pd_process_evt_src.o/
+tcpc/pd_process_evt_vdm.o/
+tcpc/pd_process_evt_drs.o/
+tcpc/pd_process_evt_prs.o/
+tcpc/pd_process_evt_vcs.o/
+tcpc/pd_process_evt_dbg.o/
+tcpc/pd_process_evt_tcp.o/
+tcpc/pd_process_evt_com.o/
+tcpc/pd_policy_engine_src.o/
+tcpc/pd_policy_engine_snk.o/
+tcpc/pd_policy_engine_ufp.o/
+tcpc/pd_policy_engine_vcs.o/
+tcpc/pd_policy_engine_dfp.o/
+tcpc/pd_policy_engine_dr.o/
+tcpc/pd_policy_engine_drs.o/
+tcpc/pd_policy_engine_prs.o/
+tcpc/pd_policy_engine_dbg.o/
+tcpc/pd_policy_engine_com.o/
+tcpc/pd_dpm_alt_mode_dc.o/
+u3_switch/usb_switch.o/
+
+/0              0           0     0     644     689672    `
+/20             0           0     0     644     264216    `
+/39             0           0     0     644     298752    `
+/59             0           0     0     644     280272    `
+/79             0           0     0     644     330984    `
+/92             0           0     0     644     261168    `
+/106            0           0     0     644     1224      `
+/126            0           0     0     644     194360    `
+/146            0           0     0     644     241928    `
+/168            0           0     0     644     272896    `
+/188            0           0     0     644     290656    `
+/204            0           0     0     644     205128    `
+/229            0           0     0     644     198832    `
+/252            0           0     0     644     311336    `
+/272            0           0     0     644     1224      `
+/292            0           0     0     644     230680    `
+/319            0           0     0     644     19272     `
+/345            0           0     0     644     179160    `
+/369            0           0     0     644     204360    `
+/388            0           0     0     644     195160    `
+/415            0           0     0     644     186904    `
+/442            0           0     0     644     191824    `
+/469            0           0     0     644     149832    `
+/496            0           0     0     644     171224    `
+/523            0           0     0     644     159256    `
+/550            0           0     0     644     1232      `
+/577            0           0     0     644     173464    `
+/604            0           0     0     644     186008    `
+/631            0           0     0     644     174488    `
+/660            0           0     0     644     179000    `
+/689            0           0     0     644     151920    `
+/718            0           0     0     644     157680    `
+/747            0           0     0     644     165456    `
+/776            0           0     0     644     153864    `
+/804            0           0     0     644     155240    `
+/833            0           0     0     644     162312    `
+/862            0           0     0     644     1232      `
+/891            0           0     0     644     183416    `
+/920            0           0     0     644     186296    `
+/947            0           0     0     644     205600    `

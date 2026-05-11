@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/chip/mt6853/CHIP.o :=  rm -f drivers/misc/mediatek/chip/mt6853/CHIP.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/chip/mt6853/CHIP.o drivers/misc/mediatek/chip/mt6853/mtk_chip.o 

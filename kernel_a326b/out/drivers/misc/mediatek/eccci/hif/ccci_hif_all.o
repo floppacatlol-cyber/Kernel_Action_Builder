@@ -1,0 +1,17 @@
+!<thin>
+//                                              118       `
+ccci_hif.o/
+ccci_hif_cldma.o/
+ccci_hif_dpmaif.o/
+dpmaif_drv.o/
+net_speed_monitor.o/
+ccci_ringbuf.o/
+ccci_hif_ccif.o/
+
+/0              0           0     0     644     262520    `
+/12             0           0     0     644     586208    `
+/30             0           0     0     644     686832    `
+/49             0           0     0     644     154216    `
+/63             0           0     0     644     255832    `
+/84             0           0     0     644     65656     `
+/100            0           0     0     644     461168    `

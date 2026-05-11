@@ -1,0 +1,72 @@
+!<thin>
+//                                              1132      `
+mtk_thermal_monitor.o/
+mtk_cooler_shutdown.o/
+mtk_cooler_kshutdown.o/
+mtk_cooler_cam.o/
+common/mtk_thermal_platform.o/
+common/ap_thermal_limit.o/
+common/thermal_zones/mtk_ts_battery.o/
+common/thermal_zones/mtk_ts_bts.o/
+common/thermal_zones/mtk_ts_btsmdpa.o/
+common/thermal_zones/mtk_ts_btsnrpa.o/
+common/thermal_zones/mtk_ts_cpu_noBank.o/
+common/thermal_zones/mtk_ts_pa.o/
+common/thermal_zones/mtk_ts_pa_thput.o/
+common/thermal_zones/mtk_ts_pmic.o/
+common/thermal_zones/mtk_ts_charger.o/
+common/thermal_zones/mtk_ts_wmt.o/
+common/thermal_zones/mtk_tsAll.o/
+common/thermal_zones/mtk_ts_imgsensor.o/
+common/coolers/mtk_ta.o/
+common/coolers/mtk_cooler_mutt_gen97.o/
+common/coolers/mtk_cooler_bcct_v1.o/
+common/coolers/mtk_cooler_atm.o/
+common/coolers/mtk_cooler_dtm.o/
+common/coolers/mtk_cooler_sysrst.o/
+common/coolers/mtk_cooler_VR_FPS.o/
+common/mtk_thermal_timer.o/
+mt6853/src/mtk_lvts_tc.o/
+mt6853/src/mtk_tc_wrapper.o/
+mt6853/src/mtk_thermal_ipi.o/
+mt6853/src/mtk_pmic_efuse.o/
+mt6853/src/mtk_ts_6359vcore.o/
+mt6853/src/mtk_ts_6359vproc.o/
+mt6853/src/mtk_ts_6359vgpu.o/
+mt6853/src/mtk_ts_6359tsx.o/
+mt6853/src/mtk_ts_6359dcxo.o/
+/0              0           0     0     644     369336    `
+/23             0           0     0     644     174968    `
+/46             0           0     0     644     135816    `
+/70             0           0     0     644     208688    `
+/88             0           0     0     644     207152    `
+/119            0           0     0     644     36176     `
+/146            0           0     0     644     230968    `
+/185            0           0     0     644     263216    `
+/220            0           0     0     644     264472    `
+/259            0           0     0     644     263192    `
+/298            0           0     0     644     312344    `
+/340            0           0     0     644     320192    `
+/374            0           0     0     644     246248    `
+/414            0           0     0     644     207616    `
+/450            0           0     0     644     184936    `
+/489            0           0     0     644     442072    `
+/524            0           0     0     644     437216    `
+/558            0           0     0     644     630504    `
+/599            0           0     0     644     321424    `
+/624            0           0     0     644     394152    `
+/664            0           0     0     644     337760    `
+/701            0           0     0     644     441120    `
+/734            0           0     0     644     178864    `
+/767            0           0     0     644     144800    `
+/803            0           0     0     644     151936    `
+/839            0           0     0     644     31392     `
+/867            0           0     0     644     369496    `
+/893            0           0     0     644     167080    `
+/922            0           0     0     644     164616    `
+/952            0           0     0     644     593272    `
+/981            0           0     0     644     187248    `
+/1012           0           0     0     644     187248    `
+/1043           0           0     0     644     187176    `
+/1073           0           0     0     644     187104    `
+/1102           0           0     0     644     187176    `

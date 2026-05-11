@@ -1,0 +1,1 @@
+cmd_drivers/net/dsa/built-in.o :=   rm -f drivers/net/dsa/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/net/dsa/built-in.o drivers/net/dsa/b53/built-in.o drivers/net/dsa/microchip/built-in.o drivers/net/dsa/mv88e6xxx/built-in.o ; scripts/mod/modpost drivers/net/dsa/built-in.o

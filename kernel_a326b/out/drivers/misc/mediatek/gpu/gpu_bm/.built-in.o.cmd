@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/gpu/gpu_bm/built-in.o :=   rm -f drivers/misc/mediatek/gpu/gpu_bm/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/gpu/gpu_bm/built-in.o drivers/misc/mediatek/gpu/gpu_bm/gpu_bm.o ; scripts/mod/modpost drivers/misc/mediatek/gpu/gpu_bm/built-in.o

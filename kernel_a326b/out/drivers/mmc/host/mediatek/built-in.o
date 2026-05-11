@@ -1,0 +1,21 @@
+!<thin>
+//                                              192       `
+ComboA/sd.o/
+ComboA/dbg.o/
+ComboA/mtk_sd_misc.o/
+ComboA/msdc_tune.o/
+ComboA/msdc_partition.o/
+ComboA/autok.o/
+ComboA/mt6853/msdc_cust.o/
+ComboA/mt6853/autok_dvfs.o/
+ComboA/sw-cqhci-crypto.o/
+
+/0              0           0     0     644     829120    `
+/13             0           0     0     644     391656    `
+/27             0           0     0     644     1380792   `
+/49             0           0     0     644     274104    `
+/69             0           0     0     644     216040    `
+/94             0           0     0     644     968600    `
+/110            0           0     0     644     376128    `
+/137            0           0     0     644     231896    `
+/165            0           0     0     644     174344    `

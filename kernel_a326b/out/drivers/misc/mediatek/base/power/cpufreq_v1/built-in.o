@@ -1,0 +1,15 @@
+!<thin>
+//                                              168       `
+src/mtk_cpufreq_main.o/
+src/mtk_cpufreq_interface.o/
+src/mtk_cpufreq_api.o/
+src/mtk_cpufreq_debug.o/
+src/mtk_cpufreq_hybrid.o/
+src/mach/mt6853/mtk_cpufreq_platform.o/
+
+/0              0           0     0     644     285456    `
+/24             0           0     0     644     243696    `
+/53             0           0     0     644     246688    `
+/76             0           0     0     644     171616    `
+/101            0           0     0     644     313552    `
+/127            0           0     0     644     211808    `

@@ -1,0 +1,13 @@
+!<thin>
+//                                              174       `
+common/v2/eeprom_driver.o/
+common/v2/eeprom_i2c_common_driver.o/
+common/v2/eeprom_utils.o/
+mt6853/eeprom_i2c_custom_driver.o/
+mt6853/camera_project/aat_v32x/cam_cal_list.o/
+
+/0              0           0     0     644     234888    `
+/27             0           0     0     644     171000    `
+/65             0           0     0     644     5632      `
+/91             0           0     0     644     139136    `
+/126            0           0     0     644     119288    `

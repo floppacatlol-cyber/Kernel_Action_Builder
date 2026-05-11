@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/flashlight/flashlight.o :=  rm -f drivers/misc/mediatek/flashlight/flashlight.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/flashlight/flashlight.o drivers/misc/mediatek/flashlight/flashlight-core.o drivers/misc/mediatek/flashlight/flashlight-device.o 

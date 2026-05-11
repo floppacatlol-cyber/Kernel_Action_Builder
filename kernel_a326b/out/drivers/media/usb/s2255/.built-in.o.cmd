@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/s2255/built-in.o :=  rm -f drivers/media/usb/s2255/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/usb/s2255/built-in.o

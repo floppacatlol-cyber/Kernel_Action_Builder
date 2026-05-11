@@ -1,0 +1,27 @@
+!<thin>
+//                                              370       `
+2.0/apusys_power_driver.o/
+2.0/apusys_power_ctl.o/
+2.0/apusys_power_debug.o/
+2.0/mt6853/hal_config_power.o/
+2.0/mt6853/apu_power_regulator.o/
+2.0/mt6853/apu_power_clock.o/
+2.0/mt6853/apusys_power_cust.o/
+2.0/mt6853/apu_power_table.o/
+2.0/mt6853/apu_platform_resource.o/
+2.0/mt6853/apu_platform_debug.o/
+2.0/mt6853/apusys_power_rule_check.o/
+2.0/mt6853/apu_power_tag.o/
+
+/0              0           0     0     644     224360    `
+/27             0           0     0     644     185160    `
+/51             0           0     0     644     152712    `
+/77             0           0     0     644     385304    `
+/108            0           0     0     644     147296    `
+/142            0           0     0     644     199136    `
+/172            0           0     0     644     11696     `
+/204            0           0     0     644     5576      `
+/234            0           0     0     644     124464    `
+/270            0           0     0     644     100064    `
+/303            0           0     0     644     17608     `
+/341            0           0     0     644     101824    `

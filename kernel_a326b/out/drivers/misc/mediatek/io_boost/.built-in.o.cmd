@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/io_boost/built-in.o :=   rm -f drivers/misc/mediatek/io_boost/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/io_boost/built-in.o drivers/misc/mediatek/io_boost/mtk_io_boost.o ; scripts/mod/modpost drivers/misc/mediatek/io_boost/built-in.o

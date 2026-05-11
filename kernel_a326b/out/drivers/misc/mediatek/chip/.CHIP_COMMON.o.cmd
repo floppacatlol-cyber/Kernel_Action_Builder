@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/chip/CHIP_COMMON.o :=  rm -f drivers/misc/mediatek/chip/CHIP_COMMON.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/chip/CHIP_COMMON.o drivers/misc/mediatek/chip/mtk_chip_common.o 

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/slbc/mtk_slbc.o :=  rm -f drivers/misc/mediatek/base/power/slbc/mtk_slbc.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/base/power/slbc/mtk_slbc.o drivers/misc/mediatek/base/power/slbc/slbc.o 

@@ -1,0 +1,28 @@
+!<thin>
+//                                              206       `
+cmdq_record.o/
+cmdq_virtual.o/
+cmdq_device.o/
+mdp_driver.o/
+mdp_common.o/
+mdp_event_common.o/
+cmdq_subsys_common.o/
+cmdq_helper_ext.o/
+mdp_ioctl_ex.o/
+mdp_m4u.o/
+cmdq_mmp.o/
+mt6853/mdp.o/
+sync/mdp_fence.o/
+/0              0           0     0     644     508968    `
+/15             0           0     0     644     219784    `
+/31             0           0     0     644     247448    `
+/46             0           0     0     644     422664    `
+/60             0           0     0     644     877072    `
+/74             0           0     0     644     20136     `
+/94             0           0     0     644     7472      `
+/116            0           0     0     644     798584    `
+/135            0           0     0     644     356696    `
+/151            0           0     0     644     184976    `
+/162            0           0     0     644     8728      `
+/174            0           0     0     644     409072    `
+/188            0           0     0     644     178592    `

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/eccci/hif/built-in.o :=   rm -f drivers/misc/mediatek/eccci/hif/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/eccci/hif/built-in.o drivers/misc/mediatek/eccci/hif/ccci_hif_all.o ; scripts/mod/modpost drivers/misc/mediatek/eccci/hif/built-in.o

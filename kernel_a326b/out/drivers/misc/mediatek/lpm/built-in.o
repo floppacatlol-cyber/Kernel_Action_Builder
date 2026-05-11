@@ -1,0 +1,72 @@
+!<thin>
+//                                              1274      `
+mtk_lpm_module.o/
+mtk_lpm_call.o/
+mtk_lpm_registry.o/
+mtk_lpm_fs/mtk_lp_kernfs.o/
+mtk_lpm_fs/mtk_lp_sysfs.o/
+mtk_lpm_fs/mtk_suspend_sysfs.o/
+mtk_lpm_fs/mtk_spm_sysfs.o/
+mtk_lpm_fs/mtk_lpm_sysfs.o/
+mtk_lpm_fs/mtk_lp_sysfs_procfs.o/
+mtk_lpm_trace_event/mtk_lpm_trace_event.o/
+platform/mtk_lpm_platform.o/
+platform/mtk_lpm_irqremain.o/
+platform/mtk_lpm_resource_ctrl.o/
+platform/mtk_lpm_rc.o/
+platform/mtk_lpm_trace.o/
+modules/debug/common/mtk_dbg_fs_common.o/
+modules/debug/common/mtk_lpm_timer.o/
+modules/debug/mt6853/mt6853_dbg_fs.o/
+modules/debug/mt6853/mt6853_dbg_lpm_fs.o/
+modules/debug/mt6853/mt6853_dbg_lpm_rc_fs.o/
+modules/debug/mt6853/mt6853_dbg_spm_fs.o/
+modules/debug/mt6853/mt6853_logger.o/
+modules/debug/mt6853/mt6853_lpm_trace_event.o/
+modules/debug/mt6853/mtk_cpupm_dbg.o/
+modules/debug/mt6853/mtk_cpuidle_status.o/
+modules/debug/mt6853/mtk_cpuidle_cpc.o/
+modules/debug/mt6853/mtk_idle_procfs.o/
+modules/debug/mt6853/mtk_idle_procfs_state.o/
+modules/debug/mt6853/mtk_idle_procfs_cpc.o/
+modules/debug/mt6853/mtk_idle_procfs_profile.o/
+modules/debug/mt6853/mtk_idle_procfs_control.o/
+modules/platform/mt6853/mt6853.o/
+modules/platform/mt6853/mtk_lp_plat_apmcu.o/
+modules/platform/mt6853/mtk_lp_plat_apmcu_mbox.o/
+modules/platform/mt6853/suspend/mt6853_suspend.o/
+/0              0           0     0     644     203632    `
+/18             0           0     0     644     18632     `
+/34             0           0     0     644     13240     `
+/54             0           0     0     644     125064    `
+/82             0           0     0     644     17352     `
+/109            0           0     0     644     115416    `
+/141            0           0     0     644     115176    `
+/169            0           0     0     644     19232     `
+/197            0           0     0     644     113680    `
+/231            0           0     0     644     189320    `
+/274            0           0     0     644     20824     `
+/303            0           0     0     644     102816    `
+/333            0           0     0     644     61088     `
+/367            0           0     0     644     61232     `
+/390            0           0     0     644     60992     `
+/416            0           0     0     644     167784    `
+/458            0           0     0     644     10640     `
+/496            0           0     0     644     6416      `
+/534            0           0     0     644     17408     `
+/576            0           0     0     644     48472     `
+/621            0           0     0     644     149712    `
+/663            0           0     0     644     205720    `
+/701            0           0     0     644     132672    `
+/748            0           0     0     644     137080    `
+/786            0           0     0     644     149560    `
+/829            0           0     0     644     112488    `
+/869            0           0     0     644     117296    `
+/909            0           0     0     644     136680    `
+/955            0           0     0     644     115528    `
+/999            0           0     0     644     131192    `
+/1047           0           0     0     644     160200    `
+/1095           0           0     0     644     8008      `
+/1129           0           0     0     644     132032    `
+/1174           0           0     0     644     22904     `
+/1224           0           0     0     644     213064    `

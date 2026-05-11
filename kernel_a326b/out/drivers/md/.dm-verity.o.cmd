@@ -1,0 +1,1 @@
+cmd_drivers/md/dm-verity.o :=  rm -f drivers/md/dm-verity.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/md/dm-verity.o drivers/md/dm-verity-fec.o drivers/md/dm-verity-target.o drivers/md/dm-verity-debug.o drivers/md/alta_bigdata.o 

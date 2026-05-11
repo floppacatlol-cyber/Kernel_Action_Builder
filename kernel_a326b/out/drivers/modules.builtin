@@ -300,6 +300,7 @@ kernel/drivers/mfd/mt635x-ot-debug.ko
 kernel/drivers/mfd/mt6358-misc.ko
 kernel/drivers/misc/mediatek/aee/aed/aed.ko
 kernel/drivers/misc/mediatek/aee/mrdump/mrdump.ko
+kernel/drivers/misc/mediatek/connectivity/connadp.ko
 kernel/drivers/misc/mediatek/dramc/mt6853/mtk_dramc_wa.ko
 kernel/drivers/misc/mediatek/flashlight/flashlight.ko
 kernel/drivers/misc/mediatek/flashlight/flashlights-mt6360.ko

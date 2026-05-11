@@ -1,0 +1,17 @@
+!<thin>
+//                                              122       `
+cmdq_sec_mtee.o/
+cmdq-sec-helper.o/
+cmdq-sec-mailbox.o/
+cmdq-test.o/
+cmdq-util.o/
+mt6853/cmdq-platform.o/
+cmdq-bw-mon.o/
+
+/0              0           0     0     644     27752     `
+/17             0           0     0     644     200400    `
+/36             0           0     0     644     373888    `
+/56             0           0     0     644     241328    `
+/69             0           0     0     644     202904    `
+/82             0           0     0     644     10992     `
+/106            0           0     0     644     184232    `

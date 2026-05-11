@@ -1,0 +1,1 @@
+cmd_drivers/media/mmc/built-in.o :=   rm -f drivers/media/mmc/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/media/mmc/built-in.o drivers/media/mmc/siano/built-in.o ; scripts/mod/modpost drivers/media/mmc/built-in.o

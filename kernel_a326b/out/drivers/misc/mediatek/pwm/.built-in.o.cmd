@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pwm/built-in.o :=   rm -f drivers/misc/mediatek/pwm/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/pwm/built-in.o drivers/misc/mediatek/pwm/mt6853/built-in.o drivers/misc/mediatek/pwm/mtk_pwm.o ; scripts/mod/modpost drivers/misc/mediatek/pwm/built-in.o

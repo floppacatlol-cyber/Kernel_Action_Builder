@@ -1,0 +1,66 @@
+!<thin>
+//                                              890       `
+common/upmu.o/
+common/upmu_regulator.o/
+common/upmu_debugfs.o/
+common/upmu_initial_setting.o/
+common/upmu_lbat_service_v2.o/
+mt6359p/v1/pmic_ipi.o/
+mt6359p/v1/mt6359_gauge.o/
+mt6359p/v1/pmic.o/
+mt6359p/v1/pmic_common.o/
+mt6359p/v1/pmic_debugfs.o/
+mt6359p/v1/pmic_irq.o/
+mt6359p/v1/pmic_initial_setting.o/
+mt6359p/v1/pmic_api.o/
+mt6359p/v1/pmic_auxadc.o/
+mt6359p/v1/regulator_codegen.o/
+mt6359p/v1/pmic_lp_api.o/
+mt6359p/v1/pmic_efuse.o/
+mt6359p/v1/pmic_throttling_dlpt.o/
+mt6359p/v1/pmic_oc_debug.o/
+mt6360/pmu/mt6360_pmu_i2c.o/
+mt6360/pmu/mt6360_pmu_regmap.o/
+mt6360/pmu/mt6360_pmu_irq.o/
+mt6360/pmu/mt6360_pmu_subdev.o/
+mt6360/pmu/mt6360_pmu_core.o/
+mt6360/pmu/mt6360_pmu_adc.o/
+mt6360/pmu/mt6360_pmu_fled.o/
+mt6360/pmu/mt6360_pmu_chg.o/
+mt6360/pmic/mt6360_pmic_i2c.o/
+mt6360/pmic/mt6360_pmic_regmap.o/
+mt6360/ldo/mt6360_ldo_i2c.o/
+mt6360/ldo/mt6360_ldo_regmap.o/
+mtk_battery_adc_intf.o/
+/0              0           0     0     644     663184    `
+/15             0           0     0     644     228096    `
+/40             0           0     0     644     170336    `
+/63             0           0     0     644     432824    `
+/94             0           0     0     644     617888    `
+/125            0           0     0     644     15096     `
+/148            0           0     0     644     960560    `
+/175            0           0     0     644     610936    `
+/194            0           0     0     644     520360    `
+/220            0           0     0     644     592040    `
+/247            0           0     0     644     619296    `
+/270            0           0     0     644     450632    `
+/305            0           0     0     644     157856    `
+/328            0           0     0     644     737152    `
+/354            0           0     0     644     977160    `
+/386            0           0     0     644     47544     `
+/412            0           0     0     644     434704    `
+/437            0           0     0     644     913448    `
+/472            0           0     0     644     152680    `
+/500            0           0     0     644     195496    `
+/529            0           0     0     644     203312    `
+/561            0           0     0     644     163520    `
+/590            0           0     0     644     143896    `
+/622            0           0     0     644     177776    `
+/652            0           0     0     644     201144    `
+/681            0           0     0     644     218272    `
+/711            0           0     0     644     1158600   `
+/740            0           0     0     644     301192    `
+/771            0           0     0     644     147280    `
+/805            0           0     0     644     270032    `
+/834            0           0     0     644     135464    `
+/866            0           0     0     644     443160    `

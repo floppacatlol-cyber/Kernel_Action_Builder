@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/aed/aed.o :=  rm -f drivers/misc/mediatek/aee/aed/aed.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/aee/aed/aed.o drivers/misc/mediatek/aee/aed/aed-main.o drivers/misc/mediatek/aee/aed/monitor_hang.o 

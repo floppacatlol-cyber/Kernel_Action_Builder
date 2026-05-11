@@ -1,0 +1,51 @@
+!<thin>
+//                                              726       `
+mtk-vcu/mtk_vcu.o/
+mtk-vcu/mtk_vcodec_mem.o/
+mtk-vcodec/mtk_vcodec_dec_drv.o/
+mtk-vcodec/vdec_drv_if.o/
+mtk-vcodec/mtk_vcodec_dec.o/
+mtk-vcodec/mt6853/mtk_vcodec_dec_pm.o/
+mtk-vcodec/vdec/vdec_common_if.o/
+mtk-vcodec/vdec/vdec_log_if.o/
+mtk-vcodec/vdec_vcu_if.o/
+mtk-vcodec/mtk_vcodec_enc.o/
+mtk-vcodec/mtk_vcodec_enc_drv.o/
+mtk-vcodec/mt6853/mtk_vcodec_enc_pm.o/
+mtk-vcodec/venc_drv_if.o/
+mtk-vcodec/venc/venc_common_if.o/
+mtk-vcodec/venc/venc_log_if.o/
+mtk-vcodec/venc_vcu_if.o/
+mtk-vcodec/mt6853/mtk_vcodec_intr.o/
+mtk-vcodec/mtk_vcodec_util.o/
+mtk-vcodec/mt6853/vcodec_dvfs.o/
+mtk-vcodec/mt6853/vcodec_bw.o/
+mtk-jpeg/mtk_jpeg_core.o/
+mtk-jpeg/mtk_jpeg_enc_hw.o/
+mtk-jpeg/mtk_jpeg_dec_hw.o/
+mtk-jpeg/mtk_jpeg_dec_parse.o/
+
+/0              0           0     0     644     742880    `
+/19             0           0     0     644     214064    `
+/45             0           0     0     644     310872    `
+/78             0           0     0     644     230184    `
+/104            0           0     0     644     392800    `
+/133            0           0     0     644     306824    `
+/172            0           0     0     644     255632    `
+/206            0           0     0     644     210624    `
+/237            0           0     0     644     272808    `
+/263            0           0     0     644     406144    `
+/292            0           0     0     644     306936    `
+/325            0           0     0     644     253320    `
+/364            0           0     0     644     238608    `
+/390            0           0     0     644     247216    `
+/424            0           0     0     644     213840    `
+/455            0           0     0     644     254928    `
+/481            0           0     0     644     244488    `
+/518            0           0     0     644     279840    `
+/548            0           0     0     644     34544     `
+/581            0           0     0     644     8312      `
+/612            0           0     0     644     392560    `
+/638            0           0     0     644     31552     `
+/666            0           0     0     644     36240     `
+/694            0           0     0     644     11704     `

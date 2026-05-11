@@ -1,0 +1,11 @@
+!<thin>
+//                                              78        `
+mtk_jpeg_core.o/
+mtk_jpeg_enc_hw.o/
+mtk_jpeg_dec_hw.o/
+mtk_jpeg_dec_parse.o/
+
+/0              0           0     0     644     392560    `
+/17             0           0     0     644     31552     `
+/36             0           0     0     644     36240     `
+/55             0           0     0     644     11704     `

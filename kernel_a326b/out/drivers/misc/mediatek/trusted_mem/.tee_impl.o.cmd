@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/trusted_mem/tee_impl.o :=  rm -f drivers/misc/mediatek/trusted_mem/tee_impl.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/trusted_mem/tee_impl.o drivers/misc/mediatek/trusted_mem/tee_impl/tee_invoke.o drivers/misc/mediatek/trusted_mem/tee_impl/tee_ops.o 

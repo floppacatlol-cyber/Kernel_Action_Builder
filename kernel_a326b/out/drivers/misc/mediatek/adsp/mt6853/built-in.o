@@ -1,0 +1,26 @@
+!<thin>
+//                                              244       `
+../common/adsp_core.o/
+../common/adsp_fs.o/
+../common/adsp_semaphore.o/
+../common/adsp_logger.o/
+../common/adsp_feature_table.o/
+adsp_awake.o/
+adsp_clk.o/
+adsp_reserved_mem.o/
+adsp_platform_driver.o/
+adsp_platform.o/
+adsp_mbox.o/
+adsp_excep.o/
+/0              0           0     0     644     167312    `
+/23             0           0     0     644     161368    `
+/44             0           0     0     644     13984     `
+/72             0           0     0     644     139120    `
+/97             0           0     0     644     34208     `
+/129            0           0     0     644     120968    `
+/143            0           0     0     644     124032    `
+/155            0           0     0     644     136680    `
+/176            0           0     0     644     216352    `
+/200            0           0     0     644     26856     `
+/217            0           0     0     644     132408    `
+/230            0           0     0     644     174528    `

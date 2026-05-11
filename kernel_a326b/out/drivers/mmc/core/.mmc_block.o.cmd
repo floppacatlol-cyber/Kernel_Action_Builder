@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/mmc_block.o :=  rm -f drivers/mmc/core/mmc_block.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/mmc/core/mmc_block.o drivers/mmc/core/block.o drivers/mmc/core/queue.o 

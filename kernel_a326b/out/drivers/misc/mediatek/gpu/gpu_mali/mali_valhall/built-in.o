@@ -1,0 +1,189 @@
+!<thin>
+//                                              6092      `
+mali-r32p1/drivers/gpu/arm/midgard/platform/mtk_platform_common/mtk_platform_common.o/
+mali-r32p1/drivers/gpu/arm/midgard/platform/mtk_platform_common/mtk_gpu_dvfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/platform/mtk_platform_common/mtk_mfg_counter.o/
+mali-r32p1/drivers/gpu/arm/midgard/platform/mtk_platform_common/mtk_gpu_power_sspm_ipi.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_cache_policy.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_ccswe.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem_pool_group.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_native_mgm.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_ctx_sched.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_gpuprops.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_pm.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_config.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_vinstr.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt_gpu.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt_legacy.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt_types.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt_virtualizer.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_softjobs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hw.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_debug.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_gpu_memory_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem_linux.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_core_linux.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem_profile_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_disjoint_events.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_gator_api.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_debug_mem_view.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_smc.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem_pool.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_mem_pool_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_debugfs_helper.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_strings.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_as_fault_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_regs_history_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_dvfs_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_power_gpu_frequency_trace.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_trace_gpu_mem.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_fence_ops.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_sync_file.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_sync_common.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_hwcnt_backend_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_dummy_job_wa.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_debug_job_fault.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_event.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_jd.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_jd_debugfs.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_js.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_js_ctx_attr.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_kinstr_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/mali_kbase_fence.o/
+mali-r32p1/drivers/gpu/arm/midgard/context/mali_kbase_context.o/
+mali-r32p1/drivers/gpu/arm/midgard/context/backend/mali_kbase_context_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/debug/mali_kbase_debug_ktrace.o/
+mali-r32p1/drivers/gpu/arm/midgard/debug/backend/mali_kbase_debug_ktrace_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/device/mali_kbase_device.o/
+mali-r32p1/drivers/gpu/arm/midgard/device/mali_kbase_device_hw.o/
+mali-r32p1/drivers/gpu/arm/midgard/device/backend/mali_kbase_device_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/device/backend/mali_kbase_device_hw_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_cache_policy_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_gpuprops_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_irq_linux.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_js_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_driver.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_metrics.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_ca.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_always_on.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_coarse_demand.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_pm_policy.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_time.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_l2_mmu_config.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_clk_rate_trace_mgr.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_instr_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_jm_as.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_debug_job_fault_backend.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_jm_hw.o/
+mali-r32p1/drivers/gpu/arm/midgard/backend/gpu/mali_kbase_jm_rb.o/
+mali-r32p1/drivers/gpu/arm/midgard/mmu/mali_kbase_mmu.o/
+mali-r32p1/drivers/gpu/arm/midgard/mmu/mali_kbase_mmu_hw_direct.o/
+mali-r32p1/drivers/gpu/arm/midgard/mmu/mali_kbase_mmu_mode_aarch64.o/
+mali-r32p1/drivers/gpu/arm/midgard/mmu/backend/mali_kbase_mmu_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/tl/mali_kbase_timeline.o/
+mali-r32p1/drivers/gpu/arm/midgard/tl/mali_kbase_timeline_io.o/
+mali-r32p1/drivers/gpu/arm/midgard/tl/mali_kbase_tlstream.o/
+mali-r32p1/drivers/gpu/arm/midgard/tl/mali_kbase_tracepoints.o/
+mali-r32p1/drivers/gpu/arm/midgard/tl/backend/mali_kbase_timeline_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/gpu/mali_kbase_gpu.o/
+mali-r32p1/drivers/gpu/arm/midgard/gpu/backend/mali_kbase_gpu_fault_jm.o/
+mali-r32p1/drivers/gpu/arm/midgard/thirdparty/mali_kbase_mmap.o/
+mali-r32p1/drivers/gpu/arm/midgard/platform/mt6853/mali_kbase_config_mt6853.o/
+
+/0              0           0     0     644     196504    `
+/87             0           0     0     644     185232    `
+/167            0           0     0     644     94448     `
+/250            0           0     0     644     208216    `
+/340            0           0     0     644     183200    `
+/402            0           0     0     644     12704     `
+/457            0           0     0     644     569664    `
+/510            0           0     0     644     191336    `
+/574            0           0     0     644     134392    `
+/634            0           0     0     644     214520    `
+/693            0           0     0     644     213344    `
+/751            0           0     0     644     197696    `
+/803            0           0     0     644     179968    `
+/859            0           0     0     644     386312    `
+/915            0           0     0     644     57592     `
+/970            0           0     0     644     74376     `
+/1029           0           0     0     644     60480     `
+/1091           0           0     0     644     53120     `
+/1152           0           0     0     644     52384     `
+/1219           0           0     0     644     381528    `
+/1277           0           0     0     644     201224    `
+/1329           0           0     0     644     5704      `
+/1384           0           0     0     644     176784    `
+/1452           0           0     0     644     434736    `
+/1511           0           0     0     644     948376    `
+/1571           0           0     0     644     177448    `
+/1640           0           0     0     644     182568    `
+/1705           0           0     0     644     241104    `
+/1764           0           0     0     644     1232      `
+/1828           0           0     0     644     6264      `
+/1881           0           0     0     644     338056    `
+/1939           0           0     0     644     187888    `
+/2005           0           0     0     644     113408    `
+/2069           0           0     0     644     2976      `
+/2126           0           0     0     644     176768    `
+/2192           0           0     0     644     178256    `
+/2262           0           0     0     644     176760    `
+/2324           0           0     0     644     174136    `
+/2393           0           0     0     644     190280    `
+/2456           0           0     0     644     8928      `
+/2515           0           0     0     644     258400    `
+/2574           0           0     0     644     221312    `
+/2635           0           0     0     644     189560    `
+/2687           0           0     0     644     222856    `
+/2753           0           0     0     644     208992    `
+/2815           0           0     0     644     177256    `
+/2880           0           0     0     644     218760    `
+/2935           0           0     0     644     351392    `
+/2987           0           0     0     644     1232      `
+/3047           0           0     0     644     531640    `
+/3099           0           0     0     644     192496    `
+/3160           0           0     0     644     249504    `
+/3219           0           0     0     644     192040    `
+/3274           0           0     0     644     220480    `
+/3339           0           0     0     644     210808    `
+/3415           0           0     0     644     177696    `
+/3483           0           0     0     644     1240      `
+/3562           0           0     0     644     228848    `
+/3625           0           0     0     644     206968    `
+/3691           0           0     0     644     201344    `
+/3765           0           0     0     644     182816    `
+/3842           0           0     0     644     179920    `
+/3924           0           0     0     644     191600    `
+/4002           0           0     0     644     195000    `
+/4073           0           0     0     644     197568    `
+/4145           0           0     0     644     221496    `
+/4217           0           0     0     644     340568    `
+/4288           0           0     0     644     201840    `
+/4360           0           0     0     644     179056    `
+/4427           0           0     0     644     179608    `
+/4501           0           0     0     644     179888    `
+/4579           0           0     0     644     195216    `
+/4650           0           0     0     644     184712    `
+/4716           0           0     0     644     179792    `
+/4791           0           0     0     644     196504    `
+/4871           0           0     0     644     201248    `
+/4946           0           0     0     644     197552    `
+/5013           0           0     0     644     1248      `
+/5098           0           0     0     644     303120    `
+/5165           0           0     0     644     279408    `
+/5232           0           0     0     644     331096    `
+/5289           0           0     0     644     196544    `
+/5356           0           0     0     644     188472    `
+/5426           0           0     0     644     213600    `
+/5494           0           0     0     644     209920    `
+/5555           0           0     0     644     161384    `
+/5619           0           0     0     644     23872     `
+/5680           0           0     0     644     402816    `
+/5744           0           0     0     644     181696    `
+/5816           0           0     0     644     3984      `
+/5873           0           0     0     644     7168      `
+/5947           0           0     0     644     193704    `
+/6012           0           0     0     644     195824    `

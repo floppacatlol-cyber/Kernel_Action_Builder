@@ -1,0 +1,17 @@
+!<thin>
+//                                              142       `
+mtk_vcodec_dec_drv.o/
+vdec_drv_if.o/
+mtk_vcodec_dec.o/
+mt6853/mtk_vcodec_dec_pm.o/
+vdec/vdec_common_if.o/
+vdec/vdec_log_if.o/
+vdec_vcu_if.o/
+
+/0              0           0     0     644     310872    `
+/22             0           0     0     644     230184    `
+/37             0           0     0     644     392800    `
+/55             0           0     0     644     306824    `
+/83             0           0     0     644     255632    `
+/106            0           0     0     644     210624    `
+/126            0           0     0     644     272808    `

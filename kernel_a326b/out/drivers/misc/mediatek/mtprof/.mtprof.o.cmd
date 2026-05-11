@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/mtprof/mtprof.o :=  rm -f drivers/misc/mediatek/mtprof/mtprof.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/misc/mediatek/mtprof/mtprof.o drivers/misc/mediatek/mtprof/prof_main.o 

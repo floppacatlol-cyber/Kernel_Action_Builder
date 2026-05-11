@@ -1,0 +1,35 @@
+!<thin>
+//                                              456       `
+common/mtk_dbg_fs_common.o/
+common/mtk_lpm_timer.o/
+mt6853/mt6853_dbg_fs.o/
+mt6853/mt6853_dbg_lpm_fs.o/
+mt6853/mt6853_dbg_lpm_rc_fs.o/
+mt6853/mt6853_dbg_spm_fs.o/
+mt6853/mt6853_logger.o/
+mt6853/mt6853_lpm_trace_event.o/
+mt6853/mtk_cpupm_dbg.o/
+mt6853/mtk_cpuidle_status.o/
+mt6853/mtk_cpuidle_cpc.o/
+mt6853/mtk_idle_procfs.o/
+mt6853/mtk_idle_procfs_state.o/
+mt6853/mtk_idle_procfs_cpc.o/
+mt6853/mtk_idle_procfs_profile.o/
+mt6853/mtk_idle_procfs_control.o/
+
+/0              0           0     0     644     167784    `
+/28             0           0     0     644     10640     `
+/52             0           0     0     644     6416      `
+/76             0           0     0     644     17408     `
+/104            0           0     0     644     48472     `
+/135            0           0     0     644     149712    `
+/163            0           0     0     644     205720    `
+/187            0           0     0     644     132672    `
+/220            0           0     0     644     137080    `
+/244            0           0     0     644     149560    `
+/273            0           0     0     644     112488    `
+/299            0           0     0     644     117296    `
+/325            0           0     0     644     136680    `
+/357            0           0     0     644     115528    `
+/387            0           0     0     644     131192    `
+/421            0           0     0     644     160200    `
