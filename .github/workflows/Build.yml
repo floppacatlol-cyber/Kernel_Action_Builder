@@ -7,6 +7,10 @@ on:
   pull_request:
     branches: [ main ]
 
+# ⚠️ IMPORTANT: This permission is required to push code back to the repo
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build Kernel
@@ -15,6 +19,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Install dependencies
       run: |
@@ -31,4 +38,21 @@ jobs:
       with:
         limit-access-to-actor: false # Recommended: only you can access the session
     # -----------------------
-          
+
+    # --- NEW: Commit and Push Step ---
+    - name: Commit and Push Changes
+      if: github.event_name != 'pull_request' # Prevents pushing on PRs from forks
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        
+        git add .
+        
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update from CI [skip ci]"
+          git push origin HEAD:${{ github.ref_name }}
+        else
+          echo "No changes to commit."
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
