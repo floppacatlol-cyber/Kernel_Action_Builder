@@ -1,0 +1,1 @@
+cmd_fs/devpts/devpts.o :=  rm -f fs/devpts/devpts.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/devpts/devpts.o fs/devpts/inode.o 

@@ -1,0 +1,1 @@
+cmd_drivers/amba/built-in.o :=   rm -f drivers/amba/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/amba/built-in.o drivers/amba/bus.o ; scripts/mod/modpost drivers/amba/built-in.o

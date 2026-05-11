@@ -1,0 +1,1 @@
+cmd_crypto/crypto_algapi.o :=  rm -f crypto/crypto_algapi.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD crypto/crypto_algapi.o crypto/algapi.o crypto/scatterwalk.o crypto/proc.o 

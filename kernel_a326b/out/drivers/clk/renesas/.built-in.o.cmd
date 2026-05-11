@@ -1,0 +1,1 @@
+cmd_drivers/clk/renesas/built-in.o :=  rm -f drivers/clk/renesas/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/clk/renesas/built-in.o

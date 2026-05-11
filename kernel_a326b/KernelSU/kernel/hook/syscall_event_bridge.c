@@ -54,14 +54,14 @@ long __nocfi ksu_hook_newfstatat(int orig_nr, const struct pt_regs *regs)
     int *flags;
 
     if (!ksu_su_compat_enabled)
-        return ksu_syscall_table[orig_nr](regs);
+        return ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
 
     dfd = (int *)&PT_REGS_PARM1(regs);
     filename_user = (const char __user **)&PT_REGS_PARM2(regs);
     flags = (int *)&PT_REGS_SYSCALL_PARM4(regs);
     ksu_handle_stat(dfd, filename_user, flags);
 
-    return ksu_syscall_table[orig_nr](regs);
+    return ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
 }
 
 long __nocfi ksu_hook_faccessat(int orig_nr, const struct pt_regs *regs)
@@ -71,14 +71,14 @@ long __nocfi ksu_hook_faccessat(int orig_nr, const struct pt_regs *regs)
     int *mode;
 
     if (!ksu_su_compat_enabled)
-        return ksu_syscall_table[orig_nr](regs);
+        return ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
 
     dfd = (int *)&PT_REGS_PARM1(regs);
     filename_user = (const char __user **)&PT_REGS_PARM2(regs);
     mode = (int *)&PT_REGS_PARM3(regs);
     ksu_handle_faccessat(dfd, filename_user, mode, NULL);
 
-    return ksu_syscall_table[orig_nr](regs);
+    return ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
 }
 
 DEFINE_STATIC_KEY_TRUE(ksud_execve_key);
@@ -114,7 +114,7 @@ long __nocfi ksu_hook_execve(int orig_nr, const struct pt_regs *regs)
         return ret;
     }
 
-    ret = ksu_syscall_table[orig_nr](regs);
+    ret = ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
     ksu_sulog_emit_pending(pending_root_execve, ret, GFP_KERNEL);
     return ret;
 }
@@ -122,7 +122,7 @@ long __nocfi ksu_hook_execve(int orig_nr, const struct pt_regs *regs)
 long __nocfi ksu_hook_setresuid(int orig_nr, const struct pt_regs *regs)
 {
     uid_t old_uid = current_uid().val;
-    long ret = ksu_syscall_table[orig_nr](regs);
+    long ret = ((long (*)(struct pt_regs *))ksu_syscall_table[orig_nr])(regs);
 
     if (ret < 0)
         return ret;

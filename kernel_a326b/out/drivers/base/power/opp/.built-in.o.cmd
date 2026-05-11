@@ -1,0 +1,1 @@
+cmd_drivers/base/power/opp/built-in.o :=   rm -f drivers/base/power/opp/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/base/power/opp/built-in.o drivers/base/power/opp/core.o drivers/base/power/opp/cpu.o drivers/base/power/opp/of.o ; scripts/mod/modpost drivers/base/power/opp/built-in.o

@@ -1,0 +1,94 @@
+!<thin>
+//                                              776       `
+mtk_drm_drv.o/
+mtk_disp_color.o/
+mtk_disp_ccorr.o/
+mtk_disp_gamma.o/
+mtk_disp_aal.o/
+mtk_disp_dither.o/
+mtk_disp_ovl.o/
+mtk_disp_rdma.o/
+mtk_disp_rsz.o/
+mtk_disp_wdma.o/
+mtk_notify.o/
+mtk_cust.o/
+mtk_drm_crtc.o/
+mtk_drm_ddp.o/
+mtk_drm_ddp_addon.o/
+mtk_drm_ddp_comp.o/
+mtk_drm_fb.o/
+mtk_drm_gem.o/
+mtk_drm_plane.o/
+mtk_dsi.o/
+mtk_mipi_tx.o/
+mtk_writeback.o/
+mtk_sync.o/
+mtk_fence.o/
+mtk_drm_session.o/
+mtk_dump.o/
+mtk_debug.o/
+mtk_layering_rule.o/
+mtk_layering_rule_base.o/
+mtk_rect.o/
+mtk_drm_mmp.o/
+mtk_drm_trace.o/
+mtk_panel_ext.o/
+mtk_drm_helper.o/
+mtk_drm_lowpower.o/
+mtk_disp_postmask.o/
+mtk_drm_assert.o/
+mtk_drm_fbconsole.o/
+mtk_disp_recovery.o/
+mtk_disp_pmqos.o/
+mtk_disp_dsc.o/
+mtk_drm_arr.o/
+mtk_disp_merge.o/
+mtk_dmdp_aal.o/
+mtk_fbconfig_kdebug.o/
+mtk_drm_fbdev.o/
+/0              0           0     0     644     635528    `
+/15             0           0     0     644     474368    `
+/33             0           0     0     644     417608    `
+/51             0           0     0     644     341464    `
+/69             0           0     0     644     507736    `
+/85             0           0     0     644     322096    `
+/104            0           0     0     644     580888    `
+/120            0           0     0     644     533968    `
+/137            0           0     0     644     362400    `
+/153            0           0     0     644     504272    `
+/170            0           0     0     644     317264    `
+/184            0           0     0     644     5160      `
+/196            0           0     0     644     1350776   `
+/212            0           0     0     644     724320    `
+/227            0           0     0     644     345432    `
+/248            0           0     0     644     383144    `
+/268            0           0     0     644     265168    `
+/282            0           0     0     644     386760    `
+/297            0           0     0     644     350912    `
+/314            0           0     0     644     995744    `
+/325            0           0     0     644     650312    `
+/340            0           0     0     644     285128    `
+/357            0           0     0     644     141888    `
+/369            0           0     0     644     399344    `
+/382            0           0     0     644     318032    `
+/401            0           0     0     644     265296    `
+/413            0           0     0     644     582672    `
+/426            0           0     0     644     347672    `
+/447            0           0     0     644     559424    `
+/473            0           0     0     644     9096      `
+/485            0           0     0     644     310872    `
+/500            0           0     0     644     325168    `
+/517            0           0     0     644     214080    `
+/534            0           0     0     644     158232    `
+/552            0           0     0     644     379192    `
+/572            0           0     0     644     337664    `
+/593            0           0     0     644     363448    `
+/611            0           0     0     644     47488     `
+/632            0           0     0     644     374128    `
+/653            0           0     0     644     331464    `
+/671            0           0     0     644     337096    `
+/687            0           0     0     644     17528     `
+/702            0           0     0     644     308144    `
+/720            0           0     0     644     330080    `
+/736            0           0     0     644     277200    `
+/759            0           0     0     644     366864    `

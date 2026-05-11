@@ -1,0 +1,19 @@
+!<thin>
+//                                              168       `
+../smcdsd_panel_init.o/
+../smcdsd_panel.o/
+../smcdsd_board.o/
+../smcdsd_notify.o/
+../smcdsd_abd.o/
+../smcdsd_dsi_msg.o/
+a32x_ili9882n_mantix.o/
+a32x_nt36525b_sharp.o/
+
+/0              0           0     0     644     294680    `
+/24             0           0     0     644     306080    `
+/43             0           0     0     644     331344    `
+/62             0           0     0     644     210840    `
+/82             0           0     0     644     425352    `
+/99             0           0     0     644     24536     `
+/120            0           0     0     644     378152    `
+/144            0           0     0     644     419392    `

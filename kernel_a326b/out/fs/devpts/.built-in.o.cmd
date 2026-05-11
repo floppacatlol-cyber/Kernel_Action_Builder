@@ -1,0 +1,1 @@
+cmd_fs/devpts/built-in.o :=   rm -f fs/devpts/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/devpts/built-in.o fs/devpts/devpts.o ; scripts/mod/modpost fs/devpts/built-in.o

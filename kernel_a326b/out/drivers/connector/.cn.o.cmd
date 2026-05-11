@@ -1,0 +1,1 @@
+cmd_drivers/connector/cn.o :=  rm -f drivers/connector/cn.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/connector/cn.o drivers/connector/cn_queue.o drivers/connector/connector.o 

@@ -1,0 +1,1 @@
+cmd_net/bridge/br_netfilter.o := /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ld -EL -maarch64linux  -r -o net/bridge/br_netfilter.o net/bridge/br_netfilter_hooks.o net/bridge/br_netfilter_ipv6.o ; scripts/mod/modpost net/bridge/br_netfilter.o

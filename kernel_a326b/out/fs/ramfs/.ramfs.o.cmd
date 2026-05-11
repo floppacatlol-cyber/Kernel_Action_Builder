@@ -1,0 +1,1 @@
+cmd_fs/ramfs/ramfs.o :=  rm -f fs/ramfs/ramfs.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/ramfs/ramfs.o fs/ramfs/inode.o fs/ramfs/file-mmu.o 

@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/built-in.o :=   rm -f drivers/fingerprint/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/fingerprint/built-in.o drivers/fingerprint/fingerprint.o drivers/fingerprint/fingerprint_sysfs.o ; scripts/mod/modpost drivers/fingerprint/built-in.o

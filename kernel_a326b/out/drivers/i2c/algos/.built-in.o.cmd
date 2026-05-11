@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/built-in.o :=   rm -f drivers/i2c/algos/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/i2c/algos/built-in.o drivers/i2c/algos/i2c-algo-bit.o ; scripts/mod/modpost drivers/i2c/algos/built-in.o

@@ -1,0 +1,1 @@
+cmd_fs/pstore/pstore.o :=  rm -f fs/pstore/pstore.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/pstore/pstore.o fs/pstore/inode.o fs/pstore/platform.o fs/pstore/pmsg.o 

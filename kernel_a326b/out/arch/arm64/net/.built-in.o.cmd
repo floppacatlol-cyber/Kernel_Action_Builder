@@ -1,0 +1,1 @@
+cmd_arch/arm64/net/built-in.o :=   rm -f arch/arm64/net/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD arch/arm64/net/built-in.o arch/arm64/net/bpf_jit_comp.o ; scripts/mod/modpost arch/arm64/net/built-in.o

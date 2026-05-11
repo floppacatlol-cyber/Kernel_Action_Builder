@@ -1,0 +1,1 @@
+cmd_init/mounts.o :=  rm -f init/mounts.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD init/mounts.o init/do_mounts.o init/do_mounts_rd.o init/do_mounts_initrd.o 

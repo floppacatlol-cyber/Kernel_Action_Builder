@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.o :=  rm -f lib/zstd/zstd_decompress.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD lib/zstd/zstd_decompress.o lib/zstd/huf_decompress.o lib/zstd/decompress.o 

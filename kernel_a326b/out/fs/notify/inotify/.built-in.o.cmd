@@ -1,0 +1,1 @@
+cmd_fs/notify/inotify/built-in.o :=   rm -f fs/notify/inotify/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/notify/inotify/built-in.o fs/notify/inotify/inotify_fsnotify.o fs/notify/inotify/inotify_user.o ; scripts/mod/modpost fs/notify/inotify/built-in.o

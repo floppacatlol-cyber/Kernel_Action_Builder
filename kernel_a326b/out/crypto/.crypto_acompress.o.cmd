@@ -1,0 +1,1 @@
+cmd_crypto/crypto_acompress.o :=  rm -f crypto/crypto_acompress.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD crypto/crypto_acompress.o crypto/acompress.o crypto/scompress.o 

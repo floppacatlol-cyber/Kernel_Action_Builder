@@ -1,0 +1,1 @@
+cmd_sound/soc/qcom/built-in.o :=  rm -f sound/soc/qcom/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/soc/qcom/built-in.o

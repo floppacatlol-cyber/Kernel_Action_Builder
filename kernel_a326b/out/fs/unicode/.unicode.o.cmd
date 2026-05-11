@@ -1,0 +1,1 @@
+cmd_fs/unicode/unicode.o :=  rm -f fs/unicode/unicode.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/unicode/unicode.o fs/unicode/utf8-norm.o fs/unicode/utf8-core.o 

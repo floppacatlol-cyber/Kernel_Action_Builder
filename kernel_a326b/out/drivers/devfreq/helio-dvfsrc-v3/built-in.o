@@ -1,0 +1,16 @@
+!<thin>
+//                                              162       `
+helio-dvfsrc-qos.o/
+helio-dvfsrc-sysfs.o/
+helio-dvfsrc-opp.o/
+helio-dvfsrc-opp-mt6853.o/
+helio-dvfsrc-mt6853.o/
+helio-dvfsrc-ip-v2.o/
+helio-dvfsrc-smc-control.o/
+/0              0           0     0     644     175000    `
+/20             0           0     0     644     153856    `
+/42             0           0     0     644     20040     `
+/62             0           0     0     644     120680    `
+/89             0           0     0     644     615032    `
+/112            0           0     0     644     198544    `
+/134            0           0     0     644     7296      `

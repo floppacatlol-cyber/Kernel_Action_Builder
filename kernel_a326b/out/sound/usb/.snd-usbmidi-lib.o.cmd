@@ -1,0 +1,1 @@
+cmd_sound/usb/snd-usbmidi-lib.o :=  rm -f sound/usb/snd-usbmidi-lib.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/usb/snd-usbmidi-lib.o sound/usb/midi.o 

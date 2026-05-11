@@ -1,0 +1,1 @@
+cmd_drivers/dax/dax.o :=  rm -f drivers/dax/dax.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/dax/dax.o drivers/dax/super.o 

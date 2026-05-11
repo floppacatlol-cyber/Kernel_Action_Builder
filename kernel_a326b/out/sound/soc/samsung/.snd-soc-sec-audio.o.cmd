@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/snd-soc-sec-audio.o :=  rm -f sound/soc/samsung/snd-soc-sec-audio.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/soc/samsung/snd-soc-sec-audio.o sound/soc/samsung/sec_audio_sysfs.o sound/soc/samsung/jack_accdet_sysfs_cb.o 

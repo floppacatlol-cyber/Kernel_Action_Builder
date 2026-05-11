@@ -1,0 +1,1 @@
+cmd_security/integrity/built-in.o :=   rm -f security/integrity/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD security/integrity/built-in.o security/integrity/integrity.o ; scripts/mod/modpost security/integrity/built-in.o

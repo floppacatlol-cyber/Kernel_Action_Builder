@@ -1,0 +1,1 @@
+cmd_lib/zlib_deflate/zlib_deflate.o :=  rm -f lib/zlib_deflate/zlib_deflate.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD lib/zlib_deflate/zlib_deflate.o lib/zlib_deflate/deflate.o lib/zlib_deflate/deftree.o lib/zlib_deflate/deflate_syms.o 

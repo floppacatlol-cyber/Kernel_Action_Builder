@@ -1,0 +1,1 @@
+cmd_sound/core/snd-hwdep.o :=  rm -f sound/core/snd-hwdep.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/core/snd-hwdep.o sound/core/hwdep.o 

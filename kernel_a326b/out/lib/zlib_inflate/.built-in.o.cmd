@@ -1,0 +1,1 @@
+cmd_lib/zlib_inflate/built-in.o :=   rm -f lib/zlib_inflate/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD lib/zlib_inflate/built-in.o lib/zlib_inflate/zlib_inflate.o ; scripts/mod/modpost lib/zlib_inflate/built-in.o

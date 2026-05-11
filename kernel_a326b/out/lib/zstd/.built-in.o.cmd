@@ -1,0 +1,1 @@
+cmd_lib/zstd/built-in.o :=   rm -f lib/zstd/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD lib/zstd/built-in.o lib/zstd/zstd_compress.o lib/zstd/zstd_decompress.o ; scripts/mod/modpost lib/zstd/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/extcon/extcon-core.o :=  rm -f drivers/extcon/extcon-core.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/extcon/extcon-core.o drivers/extcon/extcon.o drivers/extcon/devres.o 

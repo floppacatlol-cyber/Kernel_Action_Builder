@@ -1,0 +1,1 @@
+cmd_drivers/iio/industrialio.o :=  rm -f drivers/iio/industrialio.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/iio/industrialio.o drivers/iio/industrialio-core.o drivers/iio/industrialio-event.o drivers/iio/inkern.o drivers/iio/industrialio-buffer.o 

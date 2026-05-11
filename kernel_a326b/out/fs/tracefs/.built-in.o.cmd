@@ -1,0 +1,1 @@
+cmd_fs/tracefs/built-in.o :=   rm -f fs/tracefs/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/tracefs/built-in.o fs/tracefs/tracefs.o ; scripts/mod/modpost fs/tracefs/built-in.o

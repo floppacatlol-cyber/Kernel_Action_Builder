@@ -1,0 +1,1 @@
+cmd_sound/soundcore.o :=  rm -f sound/soundcore.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/soundcore.o sound/sound_core.o 

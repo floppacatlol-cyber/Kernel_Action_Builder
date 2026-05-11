@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tas256x/built-in.o :=   rm -f sound/soc/codecs/tas256x/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/soc/codecs/tas256x/built-in.o sound/soc/codecs/tas256x/snd-soc-tas256x.o ; scripts/mod/modpost sound/soc/codecs/tas256x/built-in.o

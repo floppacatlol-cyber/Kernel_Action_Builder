@@ -1,0 +1,1 @@
+cmd_net/802/built-in.o :=   rm -f net/802/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD net/802/built-in.o net/802/p8022.o net/802/psnap.o net/802/stp.o ; scripts/mod/modpost net/802/built-in.o

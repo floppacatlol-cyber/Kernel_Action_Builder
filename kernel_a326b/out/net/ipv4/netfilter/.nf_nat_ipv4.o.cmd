@@ -1,0 +1,1 @@
+cmd_net/ipv4/netfilter/nf_nat_ipv4.o :=  rm -f net/ipv4/netfilter/nf_nat_ipv4.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD net/ipv4/netfilter/nf_nat_ipv4.o net/ipv4/netfilter/nf_nat_l3proto_ipv4.o net/ipv4/netfilter/nf_nat_proto_icmp.o 

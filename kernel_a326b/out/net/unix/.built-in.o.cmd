@@ -1,0 +1,1 @@
+cmd_net/unix/built-in.o :=   rm -f net/unix/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD net/unix/built-in.o net/unix/unix.o net/unix/scm.o ; scripts/mod/modpost net/unix/built-in.o

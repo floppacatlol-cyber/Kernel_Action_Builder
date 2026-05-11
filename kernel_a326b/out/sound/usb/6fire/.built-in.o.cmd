@@ -1,0 +1,1 @@
+cmd_sound/usb/6fire/built-in.o :=  rm -f sound/usb/6fire/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/usb/6fire/built-in.o

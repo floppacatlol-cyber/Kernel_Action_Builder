@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-ce-cipher.o :=  rm -f arch/arm64/crypto/aes-ce-cipher.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD arch/arm64/crypto/aes-ce-cipher.o arch/arm64/crypto/aes-ce-core.o arch/arm64/crypto/aes-ce-glue.o 

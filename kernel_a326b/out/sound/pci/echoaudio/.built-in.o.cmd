@@ -1,0 +1,1 @@
+cmd_sound/pci/echoaudio/built-in.o :=  rm -f sound/pci/echoaudio/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/pci/echoaudio/built-in.o

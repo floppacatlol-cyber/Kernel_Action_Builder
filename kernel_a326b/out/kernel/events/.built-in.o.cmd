@@ -1,0 +1,1 @@
+cmd_kernel/events/built-in.o :=   rm -f kernel/events/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD kernel/events/built-in.o kernel/events/core.o kernel/events/ring_buffer.o kernel/events/callchain.o kernel/events/hw_breakpoint.o kernel/events/uprobes.o ; scripts/mod/modpost kernel/events/built-in.o

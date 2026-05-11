@@ -1,0 +1,1 @@
+cmd_drivers/i2c/i2c-core.o :=  rm -f drivers/i2c/i2c-core.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/i2c/i2c-core.o drivers/i2c/i2c-core-base.o drivers/i2c/i2c-core-smbus.o drivers/i2c/i2c-core-of.o 

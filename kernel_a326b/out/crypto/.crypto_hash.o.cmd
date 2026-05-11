@@ -1,0 +1,1 @@
+cmd_crypto/crypto_hash.o :=  rm -f crypto/crypto_hash.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD crypto/crypto_hash.o crypto/ahash.o crypto/shash.o 

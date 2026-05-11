@@ -1,0 +1,1 @@
+cmd_sound/core/snd-timer.o :=  rm -f sound/core/snd-timer.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/core/snd-timer.o sound/core/timer.o 

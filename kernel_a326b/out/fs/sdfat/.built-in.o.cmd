@@ -1,0 +1,1 @@
+cmd_fs/sdfat/built-in.o :=   rm -f fs/sdfat/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/sdfat/built-in.o fs/sdfat/sdfat_fs.o ; scripts/mod/modpost fs/sdfat/built-in.o

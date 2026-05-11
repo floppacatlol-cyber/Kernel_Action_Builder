@@ -1,0 +1,1 @@
+cmd_drivers/hid/usbhid/usbhid.o :=  rm -f drivers/hid/usbhid/usbhid.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/hid/usbhid/usbhid.o drivers/hid/usbhid/hid-core.o drivers/hid/usbhid/hid-quirks.o drivers/hid/usbhid/hiddev.o 

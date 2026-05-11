@@ -1,0 +1,1 @@
+cmd_security/selinux/built-in.o :=   rm -f security/selinux/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD security/selinux/built-in.o security/selinux/selinux.o ; scripts/mod/modpost security/selinux/built-in.o

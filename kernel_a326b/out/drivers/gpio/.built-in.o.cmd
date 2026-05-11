@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=   rm -f drivers/gpio/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/gpio/built-in.o drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-legacy.o drivers/gpio/gpiolib-devprop.o drivers/gpio/gpiolib-of.o ; scripts/mod/modpost drivers/gpio/built-in.o

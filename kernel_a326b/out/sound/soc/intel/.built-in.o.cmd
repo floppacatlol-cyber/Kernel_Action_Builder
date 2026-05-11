@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/built-in.o :=   rm -f sound/soc/intel/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD sound/soc/intel/built-in.o sound/soc/intel/boards/built-in.o ; scripts/mod/modpost sound/soc/intel/built-in.o

@@ -1,0 +1,31 @@
+!<thin>
+//                                              450       `
+richtek_spm_cls.o/
+mt6359.o/
+tas256x/os_layer/src/tas256x-codec.o/
+tas256x/os_layer/src/tas256x-regmap.o/
+tas256x/physical_layer/src/tas256x.o/
+tas256x/logical_layer/src/tas256x-logic.o/
+tas256x/misc/tas256x-misc.o/
+tas256x/algo/src/tas25xx-algo-intf.o/
+tas256x/algo/src/tas25xx-calib.o/
+tas256x/algo/src/tas25xx-algo-common.o/
+tas256x/algo/src/tas25xx-calib-validation.o/
+tas256x/algo/platform/mtk/tas256x-mtk-wrapper.o/
+mt6660.o/
+mt6660-regmap.o/
+
+/0              0           0     0     644     178760    `
+/19             0           0     0     644     633488    `
+/29             0           0     0     644     281088    `
+/67             0           0     0     644     324568    `
+/106            0           0     0     644     262832    `
+/144            0           0     0     644     261720    `
+/187            0           0     0     644     259720    `
+/216            0           0     0     644     11304     `
+/254            0           0     0     644     146880    `
+/288            0           0     0     644     203448    `
+/328            0           0     0     644     268168    `
+/373            0           0     0     644     11064     `
+/422            0           0     0     644     274416    `
+/432            0           0     0     644     195616    `

@@ -1,0 +1,1 @@
+cmd_drivers/extcon/built-in.o :=   rm -f drivers/extcon/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/extcon/built-in.o drivers/extcon/extcon-core.o drivers/extcon/mediatek/built-in.o ; scripts/mod/modpost drivers/extcon/built-in.o

@@ -1,0 +1,1 @@
+cmd_net/8021q/8021q.o :=  rm -f net/8021q/8021q.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD net/8021q/8021q.o net/8021q/vlan.o net/8021q/vlan_dev.o net/8021q/vlan_netlink.o net/8021q/vlanproc.o 

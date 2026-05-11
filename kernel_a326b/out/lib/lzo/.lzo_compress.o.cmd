@@ -1,0 +1,1 @@
+cmd_lib/lzo/lzo_compress.o :=  rm -f lib/lzo/lzo_compress.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD lib/lzo/lzo_compress.o lib/lzo/lzo1x_compress.o 

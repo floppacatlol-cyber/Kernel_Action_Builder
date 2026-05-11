@@ -1,0 +1,1 @@
+cmd_net/netlink/built-in.o :=   rm -f net/netlink/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD net/netlink/built-in.o net/netlink/af_netlink.o net/netlink/genetlink.o ; scripts/mod/modpost net/netlink/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/hid/wacom.o :=  rm -f drivers/hid/wacom.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/hid/wacom.o drivers/hid/wacom_wac.o drivers/hid/wacom_sys.o 

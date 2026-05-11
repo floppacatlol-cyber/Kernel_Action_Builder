@@ -1,0 +1,1 @@
+cmd_fs/f2fs/built-in.o :=   rm -f fs/f2fs/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/f2fs/built-in.o fs/f2fs/f2fs.o ; scripts/mod/modpost fs/f2fs/built-in.o

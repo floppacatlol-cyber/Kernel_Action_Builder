@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/sha2-ce.o :=  rm -f arch/arm64/crypto/sha2-ce.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD arch/arm64/crypto/sha2-ce.o arch/arm64/crypto/sha2-ce-glue.o arch/arm64/crypto/sha2-ce-core.o 

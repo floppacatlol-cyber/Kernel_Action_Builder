@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-picolcd.o :=  rm -f drivers/hid/hid-picolcd.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/hid/hid-picolcd.o drivers/hid/hid-picolcd_core.o 

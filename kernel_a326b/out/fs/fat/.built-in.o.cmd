@@ -1,0 +1,1 @@
+cmd_fs/fat/built-in.o :=   rm -f fs/fat/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/fat/built-in.o fs/fat/fat.o fs/fat/vfat.o fs/fat/msdos.o ; scripts/mod/modpost fs/fat/built-in.o

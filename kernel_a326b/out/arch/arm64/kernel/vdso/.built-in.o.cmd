@@ -1,0 +1,1 @@
+cmd_arch/arm64/kernel/vdso/built-in.o :=   rm -f arch/arm64/kernel/vdso/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD arch/arm64/kernel/vdso/built-in.o arch/arm64/kernel/vdso/vdso.o ; scripts/mod/modpost arch/arm64/kernel/vdso/built-in.o

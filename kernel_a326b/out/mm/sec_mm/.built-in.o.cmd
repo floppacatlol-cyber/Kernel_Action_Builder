@@ -1,0 +1,1 @@
+cmd_mm/sec_mm/built-in.o :=   rm -f mm/sec_mm/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD mm/sec_mm/built-in.o mm/sec_mm/sec_mm.o ; scripts/mod/modpost mm/sec_mm/built-in.o

@@ -6,6 +6,7 @@
 typedef sys_call_ptr_t syscall_fn_t;
 #endif
 
+typedef asmlinkage long (*syscall_fn_t)(void);
 extern syscall_fn_t *ksu_syscall_table;
 
 // Dispatcher slot number in syscall table

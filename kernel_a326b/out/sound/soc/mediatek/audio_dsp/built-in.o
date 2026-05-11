@@ -1,0 +1,16 @@
+!<thin>
+//                                              146       `
+mt6853/dsp-platform-mem-control.o/
+audio_buf.o/
+mtk-dsp-dai.o/
+mtk-dsp-pcm.o/
+mtk-dsp-common.o/
+mtk-dsp-platform-driver.o/
+mtk-dsp-mem-control.o/
+/0              0           0     0     644     15992     `
+/35             0           0     0     644     234080    `
+/48             0           0     0     644     186480    `
+/63             0           0     0     644     211792    `
+/78             0           0     0     644     230192    `
+/96             0           0     0     644     338280    `
+/123            0           0     0     644     259256    `

@@ -1,0 +1,1 @@
+cmd_drivers/macintosh/built-in.o :=  rm -f drivers/macintosh/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/macintosh/built-in.o

@@ -1,0 +1,1 @@
+cmd_fs/pstore/ramoops.o :=  rm -f fs/pstore/ramoops.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/pstore/ramoops.o fs/pstore/ram.o fs/pstore/ram_core.o 

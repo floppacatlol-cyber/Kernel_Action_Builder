@@ -1,0 +1,1 @@
+cmd_drivers/dax/built-in.o :=   rm -f drivers/dax/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD drivers/dax/built-in.o drivers/dax/dax.o ; scripts/mod/modpost drivers/dax/built-in.o

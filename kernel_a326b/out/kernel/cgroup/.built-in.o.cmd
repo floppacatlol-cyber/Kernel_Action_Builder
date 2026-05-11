@@ -1,0 +1,1 @@
+cmd_kernel/cgroup/built-in.o :=   rm -f kernel/cgroup/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD kernel/cgroup/built-in.o kernel/cgroup/cgroup.o kernel/cgroup/namespace.o kernel/cgroup/cgroup-v1.o kernel/cgroup/freezer.o kernel/cgroup/cpuset.o ; scripts/mod/modpost kernel/cgroup/built-in.o

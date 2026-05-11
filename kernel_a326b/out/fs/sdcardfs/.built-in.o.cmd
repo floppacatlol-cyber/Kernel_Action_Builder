@@ -1,0 +1,1 @@
+cmd_fs/sdcardfs/built-in.o :=   rm -f fs/sdcardfs/built-in.o; /home/runner/work/Kernel_Action_Builder/Kernel_Action_Builder/toolchains/gcc/bin/aarch64-none-linux-gnu-ar rcSTPD fs/sdcardfs/built-in.o fs/sdcardfs/sdcardfs.o ; scripts/mod/modpost fs/sdcardfs/built-in.o
